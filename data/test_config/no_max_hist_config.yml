@@ -1,0 +1,4 @@
+policies:
+  - name: MemoizationPolicy
+  - name: RulePolicy
+  - name: TEDPolicy

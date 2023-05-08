@@ -1,0 +1,2933 @@
+actions:
+- action_botfront_disambiguation
+- action_botfront_disambiguation_followup
+- action_botfront_fallback
+- action_botfront_mapping
+- action_faq
+- action_faq_business
+- action_set_reminder
+- action_transfer_genesys_agent
+- check_complain_condition_action
+- check_signle_ticket_status
+- create_ticket_action
+- create_ticket_final_submit_action
+- get_complaint_category_action
+- get_complaint_purpose_action
+- get_customer_type_action
+- get_message_purpose_action
+- store_bussiness_request
+- store_job_application
+- survey_question_one_action
+- survey_question_save_action
+- utter_-BHJkDGEw
+- utter_0cuN2j0Ts
+- utter_0e4sbowqM
+- utter_1DR6HE4C8X
+- utter_1hfuHJZv9
+- utter_23v4SivewX
+- utter_2DaQjta-I
+- utter_2T9leE6X1
+- utter_2kYDyw3Qo_
+- utter_2kxxIv8eg
+- utter_3LVxNXUSe
+- utter_3YJ3pE6OTN
+- utter_3pzq5rQbV
+- utter_4CbUxuWvn
+- utter_4oICcrGVl
+- utter_5PCOCM2Ob
+- utter_6CNX9uBEd
+- utter_6Ua1sO0sy
+- utter_6zY2Zg9oB
+- utter_70avm5ts5s
+- utter_7Lk81NB04
+- utter_8d-N__bN8
+- utter_8sbKo23vk
+- utter_98tiMaOlc
+- utter_9XzOup0wp
+- utter_9bEnNGVdD
+- utter_9hmikxMC3L
+- utter_ACNo0a9qe
+- utter_AZOO6RHyL
+- utter_AasCJZtJ-
+- utter_Ah6SgiciT
+- utter_Ao5yt5iIw
+- utter_ApDn9-od_
+- utter_BhBBE9XLx
+- utter_Bmr3uQHFa
+- utter_BwmIwmRtd
+- utter_BysMLrdD1
+- utter_C5n8EQXUT
+- utter_C9bNCFV9H
+- utter_Ctt8ZXQT2
+- utter_DakYhg986
+- utter_DvlLRTKlw
+- utter_EDBPAPlW-
+- utter_EdrOVDTFu
+- utter_Ef00uOn1f
+- utter_ElTelEJ_M
+- utter_FQh5HKZkb
+- utter_GBdnP7fvR
+- utter_HK_P5P6AL
+- utter_HxlhryE5i
+- utter_IBGQNMwr5
+- utter_IC2u0xT0O
+- utter_IQWzjsRMp
+- utter_IYggDQZ6M
+- utter_J4oLSrr_p
+- utter_Jy2ZRPOAM
+- utter_KH7L7gnO9
+- utter_KLa77qTwJ
+- utter_KOAejm5if
+- utter_KceUMicMH
+- utter_KtZ7TOjTt
+- utter_L0f7jFvxd
+- utter_LjDebfc-o
+- utter_Lphc8bEm0
+- utter_MCsLhKHNV
+- utter_MK9wHDjfPk
+- utter_MZBDLTH9a
+- utter_NIHFtF_U3
+- utter_NNaXfDlHr
+- utter_NcZo2ek2G
+- utter_NlYwM9r6Y
+- utter_OMmenk9Xm
+- utter_P4l3rIQNl
+- utter_PHlr0Evzz
+- utter_PR0z5CpSu
+- utter_QdIZUfFCN
+- utter_Qth6fkhN5
+- utter_RyUUbFmFFG
+- utter_SWx-50d_j
+- utter_Sz5QNg54U
+- utter_TM6tOFWgc
+- utter_Tv6car0nY
+- utter_U9OsBZ31N
+- utter_UHnJZgf5L
+- utter_UJZRs82vG
+- utter_ULd7gHUts
+- utter_UUD1oeysf
+- utter_UVc4A-mQ4
+- utter_UhX5IVnGN
+- utter_VCDlLQKpu
+- utter_Vi9VfGIbI
+- utter_VuymMJ3Hfp
+- utter_VvR3wkGJM
+- utter_W9JZ72FAE
+- utter_WCOY_SBCM
+- utter_WEdUy1moY
+- utter_Y2Q3talBR
+- utter_ZD19Wrum2
+- utter__qWbXUGtl
+- utter_ask_Business_City
+- utter_ask_Business_Email
+- utter_ask_Business_Mobile_Num
+- utter_ask_Business_Name
+- utter_ask_Business_Owner_Name
+- utter_ask_Business_Phone_Num
+- utter_ask_Email
+- utter_ask_Full_name
+- utter_ask_Mobile_number
+- utter_ask_Not_match_Num
+- utter_ask_Not_match_num
+- utter_ask_Num_check
+- utter_ask_OTP_Not_match
+- utter_ask_OTP_not_match
+- utter_ask_OTP_varification
+- utter_ask_Owner_Num_Check
+- utter_ask_Varification
+- utter_ask_check_ticket_status_single
+- utter_ask_city_name
+- utter_ask_email_id
+- utter_ask_full_name
+- utter_ask_gen_email
+- utter_ask_gen_full_name
+- utter_ask_gen_phone_number
+- utter_ask_get_complaint_category_id
+- utter_ask_get_complaint_purpose_id
+- utter_ask_get_message_purpose_id
+- utter_ask_get_programe_name
+- utter_ask_get_programe_type
+- utter_ask_indi_faq_question
+- utter_ask_mobile_no
+- utter_ask_region_name
+- utter_ask_select_customer_type
+- utter_ask_survey_question_four
+- utter_ask_test_one
+- utter_ask_ticket_email_id
+- utter_ask_ticket_full_name
+- utter_ask_ticket_mobile_no
+- utter_ask_ticket_nin_number
+- utter_ask_ticket_title
+- utter_ask_الأسم_الكامل
+- utter_ask_البريد_الألكتروني
+- utter_ask_المدينه
+- utter_ask_المنطقه
+- utter_ask_رقم_الموبايل
+- utter_asking_other_services
+- utter_bEPI0-GI3
+- utter_bM-5ZJ-9R
+- utter_bYhBXDKOs
+- utter_bye
+- utter_cztdZt04g
+- utter_dcj4912RY
+- utter_deepeF-nO
+- utter_default
+- utter_disambiguation
+- utter_eDeaHFihN
+- utter_fF7Kl-o29
+- utter_fHT34IeWY
+- utter_fallback
+- utter_g-lSxstik
+- utter_gcoxeK8lh
+- utter_gmPwGj7Rz
+- utter_hEx6uqAZL
+- utter_hlKBLss1d
+- utter_hu5WtAH1g
+- utter_iLiDanuVw
+- utter_ib23diEbMz
+- utter_iexk9C7GP
+- utter_indi_programe
+- utter_invalid_Business_City
+- utter_invalid_Business_Email
+- utter_invalid_Business_Mobile_Num
+- utter_invalid_Business_Name
+- utter_invalid_Business_Owner_Name
+- utter_invalid_Business_Phone_Num
+- utter_invalid_check_ticket_status_single
+- utter_invalid_city_name
+- utter_invalid_email_id
+- utter_invalid_full_name
+- utter_invalid_gen_phone_number
+- utter_invalid_get_complaint_category_id
+- utter_invalid_get_complaint_purpose_id
+- utter_invalid_get_message_purpose_id
+- utter_invalid_get_programe_name
+- utter_invalid_indi_faq_question
+- utter_invalid_mobile_no
+- utter_invalid_region_name
+- utter_invalid_select_customer_type
+- utter_invalid_ticket_email_id
+- utter_invalid_ticket_full_name
+- utter_invalid_ticket_mobile_no
+- utter_invalid_ticket_nin_number
+- utter_invalid_ticket_title
+- utter_invalid_الأسم_الكامل
+- utter_invalid_البريد_الألكتروني
+- utter_invalid_المدينه
+- utter_invalid_المنطقه
+- utter_invalid_رقم_الموبايل
+- utter_ixMPqByFz
+- utter_j1WSIF7Ln
+- utter_j22qesriK
+- utter_jgG49JTKJ
+- utter_jiXlFolJ3
+- utter_kCW-qnFhp
+- utter_krfknLwKl
+- utter_kzDf5Pbgy
+- utter_l93yrYzcj
+- utter_lAQ26pwi2
+- utter_lLQxRAW2P
+- utter_leap_falback
+- utter_lpaxJyS_G
+- utter_mQ2gCK07e
+- utter_m_2FDbwjM
+- utter_m_XVWRkdl
+- utter_main_menu
+- utter_n4fiFZhDI
+- utter_n9NTdfFNi
+- utter_nAegbjVYhr
+- utter_nHr8xPy2P
+- utter_oLr3RVVhS
+- utter_oQxCXa808
+- utter_ompmDWLHt
+- utter_pCouMo9Pw
+- utter_pT4VRUanQ
+- utter_pbE9nP6N3
+- utter_pj7EEOkE-
+- utter_qDgT8O_h2
+- utter_qQGVl24RY
+- utter_qU-1pMnRA
+- utter_qm39UERMs
+- utter_rCudJyh6O
+- utter_r_p9FxXSm
+- utter_reWqXBMrN
+- utter_s55ZTAU7s
+- utter_s8DyJB7Gs
+- utter_sC0ISc48X
+- utter_tIeD-VYIb
+- utter_tZekNhCIw
+- utter_tgAO-Vvt7
+- utter_tpa09Zbb0
+- utter_u-dD19-BF
+- utter_v-AhRMSKW
+- utter_vcM0LX7AV
+- utter_vpXrQDbSo
+- utter_wYmoYCAet
+- utter_woOBQXNSl
+- utter_x6-KiniwO
+- utter_xCukmQizY
+- utter_z_w5G0Do8
+entities: []
+intents:
+- Business_AR_Employment_Opportunities
+- Business_AR_Employment_Opportunities_program_1
+- Business_AR_Employment_Opportunities_program_10
+- Business_AR_Employment_Opportunities_program_11
+- Business_AR_Employment_Opportunities_program_2
+- Business_AR_Employment_Opportunities_program_3
+- Business_AR_Employment_Opportunities_program_4
+- Business_AR_Employment_Opportunities_program_5
+- Business_AR_Employment_Opportunities_program_6
+- Business_AR_Employment_Opportunities_program_7
+- Business_AR_Employment_Opportunities_program_8
+- Business_AR_Employment_Opportunities_program_9
+- Business_AR_Empowering_Women_Work
+- Business_AR_Empowering_Women_Work_Qurah_program
+- Business_AR_Entrepreneurship_Opportu
+- Business_AR_Entrepreneurship_Opportu_program_1
+- Business_AR_Training_Opportunities
+- Business_AR_Training_Opportunities_program_1
+- Business_AR_Training_Opportunities_program_2
+- Business_AR_Training_Opportunities_program_3
+- Business_AR_Training_Opportunities_program_4
+- Business_AR_Training_Opportunities_program_5
+- Business_AR_Training_Opportunities_program_6
+- Business_AR_Training_Opportunities_program_7
+- Business_Private_Sector
+- Business_Registration_in_Taqat
+- Business_Semi_Government
+- EXTERNAL_reminder
+- FAQS_Business_Employment_Training
+- FAQS_Business_Employment_programs
+- FAQS_Business_programs
+- FAQS_Indivisual_Employment_Programs
+- FAQS_Indivisual_Private_Employment_Programs
+- FAQS_Indivisual_Programs
+- FAQS_Indivisual_Training_Programs
+- FAQS_Indivisual_Women'n_work_Programs
+- HRDF_AR_FAQ_Business
+- HRDF_AR_FAQ_Indi
+- HRDF_AR_Hadaf_Branches_Indi
+- HRDF_AR_Hadaf_Program_Business
+- HRDF_AR_Hadaf_Program_Indi
+- HRDF_AR_Looking_For_Job_Indi
+- HRDF_AR_Support_request_Business
+- HRDF_AR_Ticket_Status_Business
+- HRDF_AR_Ticket_Status_Indi
+- HRDF_AR_hadaf_Branches_Business
+- HRDF_Close_Conversation
+- HRDF_Create_Ticket
+- HRDF_No_Are_You_Found
+- HRDF_Programs_Has_Support
+- HRDF_Transfer_To_Agent
+- HRDF_Yes_Are_You_Found
+- Indi_AR_Employment_Opportunities
+- Indi_AR_Employment_Opportunities_program_1
+- Indi_AR_Employment_Opportunities_program_2
+- Indi_AR_Employment_Opportunities_program_3
+- Indi_AR_Employment_Opportunities_program_5
+- Indi_AR_Employment_Opportunities_program_6
+- Indi_AR_Employment_Opportunities_program_7
+- Indi_AR_Employment_Opportunities_program_8
+- Indi_AR_Empowering_Women_work_program_1
+- Indi_AR_Empowering_Women_work_program_2
+- Indi_AR_Freelance_Job_Oppor
+- Indi_AR_Freelance_Job_Oppor_program_1
+- Indi_AR_Freelance_Job_Oppor_program_2
+- Indi_AR_Training_Opor
+- Indi_AR_Training_Opportunities_program_1
+- Indi_AR_Training_Opportunities_program_10
+- Indi_AR_Training_Opportunities_program_3
+- Indi_AR_Training_Opportunities_program_4
+- Indi_AR_Training_Opportunities_program_5
+- Indi_AR_Training_Opportunities_program_6
+- Indi_AR_Training_Opportunities_program_7
+- Indi_AR_Training_Opportunities_program_8
+- Indi_AR_Training_Opportunities_program_9
+- Indi_Hadaf_programs_help_find_job
+- Indi_Help_Find_a_Job
+- Indi_Other_Hadaf_Program
+- Indi_Registration_in_Taqat
+- No
+- Yes
+- business_faq_link
+- business_main_menu
+- chitchat.bye
+- create_ticket_complaint_category
+- create_ticket_complaint_type
+- create_ticket_final_submit
+- exit_confirm
+- exit_false
+- exit_from_form_loop
+- fallback_intent
+- get_started
+- hrdf.create_ticket
+- hrdf_are_you_found_second
+- indi_main_menu
+- individual_faq_link
+- srv_bad
+- srv_excellent
+- srv_good
+- srv_not_good
+- srv_question_two
+- srv_very_good
+responses:
+  utter_-BHJkDGEw:
+  - language: ar
+    quick_replies:
+    - payload: /Main_menu
+      title: نعم
+      type: postback
+    - payload: /srv_take_survey
+      title: لا
+      type: postback
+    text: هل تريد استعراض خدمات أخرى؟‎
+  utter_0cuN2j0Ts:
+  - language: ar
+    text: رفع الطلب‎
+  utter_0e4sbowqM:
+  - language: ar
+    quick_replies:
+    - payload: /Main_menu
+      title: القائمة الرئيسية 🏠
+      type: postback
+    - payload: /HRDF_Transfer_To_Agent
+      title: تحدث الى موظف
+      type: postback
+    - payload: /business_faq_link
+      title: اسأل مجددا
+      type: postback
+    - payload: /hrdf.create_ticket
+      title: 'رفع تذكرة '
+      type: postback
+    - payload: /HRDF_Close_Conversation
+      title: اغلاق المحادثة
+      type: postback
+    text: عذراً! لم يتم العثور على الإجابة المناسبة
+  utter_1DR6HE4C8X:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/57fQ
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "دعم أجر أيام غسيل الكلى  \n  \nيهدف البرنامج إلى تحفيز منشآت القطاع الخاص و القطاع غير الربحي على توظيف مرضى الفشل الكلوي واستمرارهم في الأعمال التي التحقوا بها بما يحقق الاستقرار الوظيفي لهم"
+  utter_1hfuHJZv9:
+  - language: ar
+    quick_replies:
+    - payload: /HRDF_Transfer_To_Agent
+      title: 'تواصل مع موظف '
+      type: postback
+    - payload: /HRDF_Create_Ticket
+      title: 'رفع تذكرة '
+      type: postback
+    text: الرجاء اختيار إحدى الخيارات التالية ⬇️
+  utter_23v4SivewX:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/5AXJ
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج توافق   \n  \nيهدف برنامج توظيف الأشخاص ذوي الإعاقة إلى دعم وتمكين القوى العاملة من ذوي الإعاقة للعمل في القطاع الخاص والقطاع غير الربحي من خلال مبادئ برنامج توافق.\n"
+  utter_2DaQjta-I:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A7%D9%84%D8%A8%D9%88%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D9%84%D8%B9%D9%85%D9%84-%D8%B7%D8%A7%D9%82%D8%A7%D8%AA
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "حول البوابة الوطنية للعمل طاقات  \n  \nالبوابة الوطنية للعمل \"طاقات\" إحدى مبادرات صندوق تنمية الموارد البشرية \"هدف\" لتوفر خدمات التوظيف والتدريب بكفاءة وفعالية لزيادة استقرار وتطوير أبناء وبنات الوطن وزيادة تواجدهم وفاعليتهم في سوق العمل السعودي.\n"
+  utter_2T9leE6X1:
+  - image: https://www.hrdf.org.sa/media/HRDFphotos/Programs/910ths/910ths2.png
+    language: ar
+    text: null
+  utter_2kYDyw3Qo_:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/SafetyCadres/SafetyCadres2.png
+    language: ar
+  utter_2kxxIv8eg:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A9-%D8%AA%D9%88%D8%B7%D9%8A%D9%86-%D8%B9%D9%82%D9%88%D8%AF-%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-%D9%88%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A3%D9%81%D8%B1%D8%A7%D8%AF
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج توطين عقود التشغيل والصيانة  \n  \nتم إطلاق مبادرة توطين عقود التشغيل والصيانة بالجهات العامة والتي تهدف الى رفع نسب التوطين في القطاع بالإضافة الى رفع كفاءة ومهارة السعوديين وتأهيلهم وفق افضل الممارسات بما يلبي متطلبات القطاع وزيادة جاذبية وظائفه\n"
+  utter_3LVxNXUSe:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/SafetyCadres/SafetyCadres2.png
+    language: ar
+    text: null
+  utter_3YJ3pE6OTN:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /Business_AR_Training_Opportunities_program_1
+      title: توطين مهن القطاع العقاري
+      type: postback
+    - payload: /Business_AR_Training_Opportunities_program_2
+      title: المنصة الإلكترونية دروب
+      type: postback
+    - payload: /Business_AR_Training_Opportunities_program_3
+      title: برنامج التدريب الصيفي للمنشآت
+      type: postback
+    - payload: /Business_AR_Training_Opportunities_program_4
+      title: البوابة الوطنية للعمل طاقات
+      type: postback
+    - payload: /Business_AR_Training_Opportunities_program_6
+      title: أكاديمية "هدف" للقيادة
+      type: postback
+    - payload: /Business_AR_Training_Opportunities_program_5
+      title: برنامج التدريب على رأس العمل تمهير
+      type: postback
+    - payload: /Business_AR_Training_Opportunities_program_7
+      title: برنامج مهارات
+      type: postback
+    - payload: /HRDF_AR_Hadaf_Program_Business
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_3pzq5rQbV:
+  - language: ar
+    quick_replies:
+    - payload: /FAQS_Business_Employment_programs
+      title: فرص للتوظيف
+      type: postback
+    - payload: /FAQS_Business_Employment_Training
+      title: فرص للتدريب
+      type: postback
+    - payload: /business_main_menu
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_4CbUxuWvn:
+  - language: ar
+    text: CAS- أو  TKT- أو  CU-
+  utter_4oICcrGVl:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /Indi_AR_Empowering_Women_work_program_1
+      title: برنامج قرة افراد
+      type: postback
+    - payload: /Indi_AR_Empowering_Women_work_program_2
+      title: برنامج وصول افراد
+      type: postback
+    - payload: /HRDF_AR_Hadaf_Program_Indi
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_5PCOCM2Ob:
+  - image: data:image/png;base64,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
+    language: ar
+    text: null
+  utter_6CNX9uBEd:
+  - language: ar
+    text: شكرا لتواصلك معنا.
+  utter_6Ua1sO0sy:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/RealEstateRes/RealEstateRes2.png
+    language: ar
+    text: null
+  utter_6zY2Zg9oB:
+  - language: ar
+    quick_replies:
+    - payload: /srv_excellent
+      title: راضي تماما 😊
+      type: postback
+    - payload: /srv_very_good
+      title: راضي 🙂
+      type: postback
+    - payload: /srv_good
+      title: محايد😐
+      type: postback
+    - payload: /srv_not_good
+      title: غير راضي😕
+      type: postback
+    - payload: /srv_bad
+      title: غير راضي على الإطلاق 🙁
+      type: postback
+    - payload: /Main_menu
+      title: تخطي
+      type: postback
+    - payload: /chitchat.bye
+      title: إنهاء المحادثة
+      type: postback
+    text: ما مدى رضاك عن خدمة "الرد الآلي بشكل عام"؟
+  utter_70avm5ts5s:
+  - language: ar
+    metadata: null
+    text: لحظات من فضلك لعرض قائمة تصنيفات الغرض من الرسالة‎
+  utter_7Lk81NB04:
+  - image: https://hrdf.org.sa/media/img/%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%AA%D9%88%D8%B8%D9%8A%D9%81.jpg
+    language: ar
+    text: null
+  utter_8d-N__bN8:
+  - language: ar
+    text: لحظات من فضلك لعرض قائمة تصنيف العميل..‎
+  utter_8sbKo23vk:
+  - image: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozQTRBNEIzNTZDMDNFOTExODZGNjkwQzVGMjlCMDJFRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyQkQzQTBDRTBEQUMxMUU5ODI2MUJEQjA3NDk1MDc4NSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyQkQzQTBDRDBEQUMxMUU5ODI2MUJEQjA3NDk1MDc4NSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozRDdFRDA4MkZBMENFOTExODZGNjkwQzVGMjlCMDJFRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozQTRBNEIzNTZDMDNFOTExODZGNjkwQzVGMjlCMDJFRCIvPiA8L3JkZjpEZXNjcmlwdGlv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
+    language: ar
+    text: null
+  utter_98tiMaOlc:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/SAIFI/Saifi2.png
+    language: ar
+    text: null
+  utter_9XzOup0wp:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/5EBj
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Freelance_Job_Oppor
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج دعم توصيل الطلبات  \n  \nيأتي برنامج \"دعم العمل الحر \" للعاملين في نشاط توصيل الطلبات ضمن إطار مبادرات منظومة الموارد البشرية والتنمية الاجتماعية الهادفة الى التوسع في التوطين من خلال تبني أساليب وأنماط عمل مختلفة."
+  utter_9bEnNGVdD:
+  - language: ar
+    text: "حياك الله عزيزي العميل..  \nمرحبًا بكم في المساعد الرقمي لخدمة العملاء لصندوق تنمية الموارد البشرية."
+  utter_9hmikxMC3L:
+  - language: ar
+    quick_replies:
+    - payload: /srv_question_two
+      title: راضي تماما 😊
+      type: postback
+    - payload: /srv_question_two
+      title: راضي  🙂
+      type: postback
+    - payload: /srv_question_two
+      title: محايد😐
+      type: postback
+    - payload: /srv_question_two
+      title: غير راضي 😕
+      type: postback
+    - payload: /srv_question_two
+      title: غير راضي على الإطلاق 🙁
+      type: postback
+    text: ' ما مدى وضوح إجابة الرد الآلي على استفسارك؟'
+  utter_ACNo0a9qe:
+  - language: ar
+    text: create ticket status in-progress
+  utter_AZOO6RHyL:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/57BM
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Training_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج التدريب على رأس العمل تمهير  \n  \nيهدف برنامج تمهير إلى تدريب الخريجين السعوديين من الجامعات المحلية والخارجية لدى المؤسسات الحكومية والشركات المتميزة في القطاع الخاص والقطاع غير الربحي، ليتمكنوا من اكتساب الخبرات والمهارات اللازمة وتهيئتهم للمشاركة في سوق العمل"
+  utter_AasCJZtJ-:
+  - language: ar
+    text: يرجى المساهمة في تحسين الخدمة من خلال التقييم ادناه
+  utter_Ah6SgiciT:
+  - language: ar
+    quick_replies:
+    - payload: /Indi_AR_Employment_Opportunities_program_6
+      title: برنامج توطين
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities_program_8
+      title: المنصة الوطنية الموحدة للتوظيف
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities_program_3
+      title: برنامج توطين عقود التشغيل والصيانة
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities_program_5
+      title: البوابة الوطنية للعمل طاقات
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities_program_1
+      title: برنامج إعانة البحث عن عمل
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities_program_7
+      title: اتفاقية الاتحاد السعودي للأمن السيبراني
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities_program_2
+      title: برنامج توافق افراد
+      type: postback
+    - payload: /HRDF_AR_Hadaf_Program_Indi
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_Ao5yt5iIw:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/5EBn
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Empowering_Women_Work
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج قرة  \n  \nيهدف إلى خلق جسر تواصل بين مراكز الضيافة لطرح خدماتها وتسويقها للعاملات السعوديات في القطاع الخاص والقطاع غير الربحي لتسجيل أبنائهم، بالإضافة إلى دعم تمكين المرأة العاملة من الالتحاق بسوق العمل والاستمرار فيه\n"
+  utter_ApDn9-od_:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/SubsidizingDialysis/Subsidizing2.png
+    language: ar
+    text: null
+  utter_BhBBE9XLx:
+  - elements:
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/5EBj
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/img/%D9%88%D8%B5%D9%88%D9%841.JPG
+      subtitle: يأتي برنامج "دعم العمل الحر " للعاملين في نشاط توصيل الطلبات ضمن إطار مبادرات منظومة الموارد البشرية والتنمية الاجتماعية الهادفة الى التوسع في التوطين من خلال تبني أساليب وأنماط عمل مختلفة.
+      title: برنامج دعم توصيل الطلبات
+    language: ar
+  utter_Bmr3uQHFa:
+  - language: ar
+    text: إنشاء بطاقة تنفيذ قريبا
+  utter_BwmIwmRtd:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-0
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "نبذة عن برنامج توطين  \n  \nتعتبر زيادة معدلات التوظيف من الأهداف الرئيسية لرؤية المملكة 2030 ؛ وبتعاون وزارة الموارد البشرية والتنمية الاجتماعية  \nمع باقي الوزارات والجهات الحكومية، تم إطلاق برنامج توطين لدعم المنشآت والباحثين عن عمل وفق آليات منظمة ومدة  \nزمنية محددة.  \nويعد برنامج \"توطين\" أحد برامج وزارة الموارد البشرية والتنمية الاجتماعية الذي يهدف إلى خلق فرص وظيفية للباحثين  \nوالباحثات عن عمل، مستهدف المتخرجين من الجنسين ممن لم يسبق لهم الدخول لسوق العمل أو انقطعوا لما يزيد عن ثلاثة أشهر في القطاع الخاص. وتتعاون"
+  utter_BysMLrdD1:
+  - image: https://www.hrdf.org.sa/media/HRDFphotos/Programs/DomiciliationContracts/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A.PNG
+    language: ar
+    text: null
+  utter_C5n8EQXUT:
+  - language: ar
+    quick_replies:
+    - payload: /exit_confirm
+      title: Yes
+      type: postback
+    - payload: /exit_false
+      title: No
+      type: postback
+    text: Are you sure ?
+  utter_C9bNCFV9H:
+  - image: https://hrdf.org.sa/media/Event/%D8%AF%D8%B1%D9%88%D8%A8.jpg
+    language: ar
+    text: null
+  utter_Ctt8ZXQT2:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/Wusool/WUSOOL2.png
+    language: ar
+    text: null
+  utter_DakYhg986:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/SafetyCadres/SafetyCadres2.png
+    language: ar
+  utter_DvlLRTKlw:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/57BL
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Training_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "البوابة الوطنية للعمل طاقات  \n  \nمنصة الكترونية شاملة لسوق العمل في المملكة العربية السعودية بشقيه العام والخاص ومزودي خدمات التوظيف، تجمع بين الباحثين عن العمل وأصحاب الأعمال وتتيح تقديم وتبادل خدمات التوظيف والتدريب"
+  utter_EDBPAPlW-:
+  - elements:
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/57fK
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/RealEstateRes/RealEstateRes2.png
+      subtitle: '- رفع مهارات الباحثين عن عمل من الذكور والإناث في مهن القطاع العقاري، من خلال دورات تدريبية نظرية وعملية متخصصة في مجال العقار.'
+      title: برنامج توطين مهن القطاع العقاري
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/57fN
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/DomiciliationContracts/DomiciliationContracts2.png
+      subtitle: تم إطلاق مبادرة توطين عقود التشغيل والصيانة بالجهات العامة والتي تهدف الى رفع نسب التوطين في القطاع بالإضافة الى رفع كفاءة ومهارة السعوديين وتأهيلهم وفق افضل الممارسات بما يلبي متطلبات القطاع وزيادة جاذبية وظائفه
+      title: برنامج مبادرة توطين عقود التشغيل والصيانة
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/57fQ
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/SubsidizingDialysis/Subsidizing2.png
+      subtitle: يهدف البرنامج إلى تحفيز منشآت القطاع الخاص و القطاع غير الربحي على توظيف مرضى الفشل الكلوي واستمرارهم في الأعمال التي التحقوا بها بما يحقق الاستقرار الوظيفي لهم
+      title: دعم أجر أيام غسيل الكلى
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/57fT
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/Tawafuq/Tawafuq2.png
+      subtitle: يهدف برنامج توظيف الأشخاص ذوي الإعاقة إلى دعم وتمكين القوى العاملة من ذوي الإعاقة للعمل في القطاع الخاص والقطاع غير الربحي من خلال مبادئ برنامج توافق.
+      title: 'برنامج توافق '
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/5EBm
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/img/%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%AA%D9%88%D8%B8%D9%8A%D9%81.jpg
+      subtitle: يهدف البرنامج لدعم الباحثين والباحثات عن عمل في القطاع الخاص والقطاع غير الربحي بتحمل الصندوق نسبة من أجر الموظف، ويشمل البرنامج دعم جميع الوظائف في القطاع الخاص والقطاع غير الربحي للدوام الكامل.
+      title: برنامج دعم التوظيف
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/5EBn
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/Qurrah/Qurrah2.png
+      subtitle: يهدف إلى خلق جسر تواصل بين مراكز الضيافة لطرح خدماتها وتسويقها للعاملات السعوديات في القطاع الخاص والقطاع غير الربحي لتسجيل أبنائهم، بالإضافة إلى دعم تمكين المرأة العاملة من الالتحاق بسوق العمل والاستمرار فيه
+      title: برنامج قرة
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/57fX
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/img/program/2n3.jpg
+      subtitle: منصة الكترونية شاملة لسوق العمل في المملكة العربية السعودية بشقيه العام والخاص ومزودي خدمات التوظيف، تجمع بين البحاثين عن العمل وأصحاب الأعمال وتتيح تقديم وتبادل خدمات التوظيف والتدريب بكفاءة وفعالية لزيادة استقرار وتطوير القوى العاملة في سوق العمل السعودي والمساهمة بعرض الفرص الوظيفية بشكل عادل للجميع
+      title: 'البوابة الوطنية للعمل طاقات '
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/57fY
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/StrategicPartnership/StrategicPartnership2.png
+      subtitle: يهدف البرنامج إلى تدريب وتوظيف الباحثين عن عمل على تخصصات نادرة ومتاحة لدى منشآت القطاع الخاص و القطاع غير الربحي، في أحد الجهات التدريبية المرخصة من المؤسسة العامة للتدريب التقني والمهني كجهات تدريب غير ربحية، بموجب عقود عمل لدى القطاع الخاص أو القطاع غير الربحي بدعم مادي من الصندوق وفق آلية الدعم المعتمدة
+      title: برنامج دعم معاهد الشراكات الاستراتيجية
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://hrdf.org.sa/home
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/StrategicPartnership/StrategicPartnership2.png
+      subtitle: ''
+      title: برنامج توطين
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://jadarat.sa/Jadarat/
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/StrategicPartnership/StrategicPartnership2.png
+      subtitle: المنصة‎ الوطنية الموحدة للتوظيف (جدارات) بإصدارها التجريبي، تربط بين الباحثين عن العمل والفرص المتاحة في القطاعين العام و الخاص من خلال مواءمة رقمية سلسة شاملة تحقق الفاعلية والدقة والشفافية في إيجاد فرص العمل ويعد هذا الاصدار التجريبي ولاختبار ميزاتنا الجديد مبدئيا.
+      title: المنصة الوطنية الموحدة للتوظيف
+    language: ar
+  utter_EdrOVDTFu:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A7%D9%84%D8%A8%D9%88%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D9%84%D8%B9%D9%85%D9%84-%D8%B7%D8%A7%D9%82%D8%A7%D8%AA
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Training_Opor
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "حول البوابة الوطنية للعمل طاقات  \n  \nالبوابة الوطنية للعمل \"طاقات\" إحدى مبادرات صندوق تنمية الموارد البشرية \"هدف\" لتوفر خدمات التوظيف والتدريب بكفاءة وفعالية لزيادة استقرار وتطوير أبناء وبنات الوطن وزيادة تواجدهم وفاعليتهم في سوق العمل السعودي.\n"
+  utter_Ef00uOn1f:
+  - language: ar
+    quick_replies:
+    - payload: /HRDF_AR_hadaf_Branches_Business
+      title: فروع هدف ومراكز طاقات
+      type: postback
+    - payload: /FAQS_Business_programs
+      title: الأسئلة الشائعة
+      type: postback
+    - payload: /Business_Registration_in_Taqat
+      title: التسجيل في طاقات
+      type: postback
+    - payload: /HRDF_AR_Ticket_Status_Business
+      title: حالة التذكرة
+      type: postback
+    - payload: /HRDF_AR_Support_request_Business
+      title: طلب الدعم
+      type: postback
+    - payload: /HRDF_AR_Hadaf_Program_Business
+      title: ' برامج هدف '
+      type: postback
+    - payload: /Main_menu
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى الخدمات التالية ⬇️
+  utter_ElTelEJ_M:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%AA%D8%B3%D8%B9%D8%A9-%D8%A7%D8%B9%D8%B4%D8%A7%D8%B1
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Entrepreneurship_Opportu
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج \"تسعة أعشار\"  \n  \nبرنامج لدعم المنشآت الصغيرة والمتوسطة  \nتسعة أعشار هي عبارة عن محرك لتغيير ثقافة العمل لدى الفرد والمجتمع وذلك عن طريق تشجيع ودعم ريادة الأعمال والمنشآت الصغيرة والمتوسطة وتمكين الأفراد من خلق وظائف جديدة بطرق مبتكرة.\n"
+  utter_FQh5HKZkb:
+  - language: ar
+    quick_replies:
+    - payload: /HRDF_Yes_Are_You_Found
+      title: نعم
+      type: postback
+    - payload: /HRDF_No_Are_You_Found
+      title: لا
+      type: postback
+    - payload: /Main_menu
+      title: القائمة السابقة 🔙
+      type: postback
+    text: هل وجدت ما تبحث عنه ؟
+  utter_GBdnP7fvR:
+  - language: ar
+    quick_replies:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    - payload: /Business_Registration_in_Taqat
+      title: القائمة السابقة 🔙
+      type: postback
+    - title: تسجيل
+      type: web_url
+      url: 'https://eservices.taqat.sa/Eservices/Home.aspx?user=1 '
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    text: "البوابة الوطنية للعمل \"طاقات\"، إحدى مبادرات صندوق تنمية الموارد البشرية وبدعم من وزارة العمل والتنمية الاجتماعية ووزارة الخدمة المدنية، توفر منصة الكترونية شاملة لسوق العمل في المملكة العربية السعودية بشقيه العام والخاص ومزودي خدمات التوظيف، تجمع بين الباحثين عن العمل وأصحاب الأعمال وتتيح تقديم وتبادل خدمات التوظيف والتدريب بكفاءة وفعالية لزيادة استقرار وتطوير القوى العاملة في سوق العمل السعودي والمساهمة بعرض الفرص الوظيفية بشكل عادل للجميع.‎  \n  \nللتسجيل في منشئات القطاع الخاص"
+  utter_HK_P5P6AL:
+  - language: ar
+    text: CAS- أو  TKT- أو  CU-
+  utter_HxlhryE5i:
+  - image: https://hrdf.org.sa/media/img/%D9%88%D8%B5%D9%88%D9%841.JPG
+    language: ar
+    text: null
+  utter_IBGQNMwr5:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/5AYb
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Training_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "المنصة الإلكترونية دروب -منشآت  \n  \nدروب-منشآت هي خدمة مقدمة من صندوق تنمية الموارد البشرية \"هدف\" والتي تتيح للمنشآت متابعة الاداء التدريبي لموظفيها"
+  utter_IC2u0xT0O:
+  - buttons:
+    - payload: /Main_menu
+      title: نعم
+      type: postback
+    - payload: /srv_take_survey
+      title: لا
+      type: postback
+    language: ar
+    text: هل تحتاج اي خدمات اخرى؟
+  utter_IQWzjsRMp:
+  - language: ar
+    quick_replies:
+    - payload: /Indi_AR_Training_Opportunities_program_1
+      title: برنامج كوادر السلامة والصحة المهنية
+      type: postback
+    - payload: /Indi_AR_Training_Opportunities_program_3
+      title: البوابة الوطنية للعمل طاقات تدريب
+      type: postback
+    - payload: /Indi_AR_Training_Opportunities_program_4
+      title: برنامج التدريب الصيفي افراد
+      type: postback
+    - payload: /Indi_AR_Training_Opportunities_program_5
+      title: المنصة الإلكترونية دروب افراد
+      type: postback
+    - payload: /Indi_AR_Training_Opportunities_program_6
+      title: بوابة التطوير والتثقيف المهني (سُبل)
+      type: postback
+    - payload: /Indi_AR_Training_Opportunities_program_7
+      title: برنامج تمهير للتدريب
+      type: postback
+    - payload: /Indi_AR_Training_Opportunities_program_8
+      title: الجلسات التدريبية التفاعلية
+      type: postback
+    - payload: /Indi_AR_Training_Opportunities_program_9
+      title: دعم الشهادات المهنية الإحترافية
+      type: postback
+    - payload: /Indi_AR_Training_Opportunities_program_10
+      title: برنامج ممكن
+      type: postback
+    - payload: /HRDF_AR_Hadaf_Program_Indi
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_IYggDQZ6M:
+  - language: ar
+    quick_replies:
+    - payload: /Main_menu
+      title: القائمة الرئيسية 🏠
+      type: postback
+    - payload: /HRDF_Transfer_To_Agent
+      title: تحدث الى موظف
+      type: postback
+    - payload: /HRDF_AR_Ticket_Status_Indi
+      title: حاول مرة أخرى
+      type: postback
+    text: 'الرجاء اختيار احدى الخيارات التالية:'
+  utter_J4oLSrr_p:
+  - language: ar
+    quick_replies:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    text: "نتطلع دائما لإرضائكم.  \nدمتم بخير.."
+  utter_Jy2ZRPOAM:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/Qurrah/Qurrah2.png
+    language: ar
+    text: null
+  utter_KH7L7gnO9:
+  - language: ar
+    quick_replies:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    - payload: /Business_Registration_in_Taqat
+      title: القائمة السابقة 🔙
+      type: postback
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - title: تسجيل
+      type: web_url
+      url: 'https://eservices.taqat.sa/Eservices/Home.aspx?user=6 '
+    text: "البوابة الوطنية للعمل \"طاقات\"، إحدى مبادرات صندوق تنمية الموارد البشرية وبدعم من وزارة العمل والتنمية الاجتماعية ووزارة الخدمة المدنية، توفر منصة الكترونية شاملة لسوق العمل في المملكة العربية السعودية بشقيه العام والخاص ومزودي خدمات التوظيف، تجمع بين الباحثين عن العمل وأصحاب الأعمال وتتيح تقديم وتبادل خدمات التوظيف والتدريب بكفاءة وفعالية لزيادة استقرار وتطوير القوى العاملة في سوق العمل السعودي والمساهمة بعرض الفرص الوظيفية بشكل عادل للجميع.‎  \n  \nالتسجيل لصاحب عمل بالقطاع شبة الحكومي وشبة الربحي"
+  utter_KLa77qTwJ:
+  - image: https://www.my.gov.sa/wps/wcm/connect/6e14d525-2277-49b6-badd-caec2852e398/%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-6e14d525-2277-49b6-badd-caec2852e398-o4pWOK8
+    language: ar
+  utter_KOAejm5if:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/57fY
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج دعم معاهد الشراكات الاستراتيجية  \n  \nيهدف البرنامج إلى تدريب وتوظيف الباحثين عن عمل على تخصصات نادرة ومتاحة لدى منشآت القطاع الخاص و القطاع غير الربحي، في أحد الجهات التدريبية المرخصة من المؤسسة العامة للتدريب التقني والمهني كجهات تدريب غير ربحية، بموجب عقود عمل لدى القطاع الخاص أو القطاع غير الربحي بدعم مادي من الصندوق وفق آلية الدعم المعتمدة"
+  utter_KceUMicMH:
+  - language: ar
+    quick_replies:
+    - payload: /Indi_Registration_in_Taqat
+      title: التسجيل في طاقات
+      type: postback
+    - payload: /HRDF_AR_Hadaf_Branches_Indi
+      title: فروع هدف ومراكز طاقات
+      type: postback
+    - payload: /HRDF_AR_Ticket_Status_Indi
+      title: حالة التذكرة
+      type: postback
+    - payload: /HRDF_AR_Looking_For_Job_Indi
+      title: البحث عن وظيفة
+      type: postback
+    - payload: /HRDF_AR_Hadaf_Program_Indi
+      title: برامج هدف
+      type: postback
+    - payload: /FAQS_Indivisual_Programs
+      title: الأسئلة الشائعة
+      type: postback
+    - payload: /Main_menu
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى الخدمات التالية ⬇️
+  utter_KtZ7TOjTt:
+  - language: ar
+    text: ' أو أدخل # للرجوع للقائمة الرئيسية'
+  utter_L0f7jFvxd:
+  - image: https://hrdf.org.sa/media/HRDFphotos/20n.jpg
+    language: ar
+    text: null
+  utter_LjDebfc-o:
+  - language: ar
+    text: "دعم أجر أيام غسيل الكلى  \n  \nيهدف البرنامج إلى تحفيز منشآت القطاع الخاص و القطاع غير الربحي على توظيف مرضى الفشل الكلوي واستمرارهم في الأعمال التي التحقوا بها بما يحقق الاستقرار الوظيفي لهم"
+  utter_Lphc8bEm0:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/SafetyCadres/%D9%85%D9%85%D9%83%D9%86-3.jpg
+    language: ar
+  utter_MCsLhKHNV:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%B4%D9%87%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%87%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Training_Opor
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "حول دعم الشهادات المهنية الإحترافية  \n  \nبرنامج يقدمه صندوق تنمية الموارد البشرية لتشجيع وتحفيز القوى العاملة الوطنية ومنظمات الأعمال والباحثين عن عمل للحصول على شهادات مهنية احترافية معتمدة لتطوير مهاراتهم وخبراتهم في المجالات المتخصصة و المطلوبة في سوق العمل.\n"
+  utter_MK9wHDjfPk:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/HAFIZDifficulty/HAFIZDifficulty2.png
+    language: ar
+  utter_MZBDLTH9a:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/5EBn
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج قرة  \n  \nيهدف إلى خلق جسر تواصل بين مراكز الضيافة لطرح خدماتها وتسويقها للعاملات السعوديات في القطاع الخاص والقطاع غير الربحي لتسجيل أبنائهم، بالإضافة إلى دعم تمكين المرأة العاملة من الالتحاق بسوق العمل والاستمرار فيه"
+  utter_NIHFtF_U3:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /Business_AR_Entrepreneurship_Opportu_program_1
+      title: برنامج "تسعة أعشار"
+      type: postback
+    - payload: /HRDF_AR_Hadaf_Program_Business
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_NNaXfDlHr:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/5EBk
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Empowering_Women_work
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج وصول   \n  \nمبادرة وطنية أُنشئت من قبل صندوق تنمية الموارد البشرية\"هدف\" ويهدف لتمكين المرأة من العمل في القطاع الخاص ورفع مشاركتها في سوق العمل عن طريق مساعدة الموظفة في تخطي صعوبات المواصلات من وإلى مكان العمل."
+  utter_NcZo2ek2G:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/SUBOL/%D8%B7%D8%A7%D9%82%D8%A7%D8%AA-3.jpg
+    language: ar
+    text: null
+  utter_NlYwM9r6Y:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/Taqat/TAQAT2.png
+    language: ar
+    text: null
+  utter_OMmenk9Xm:
+  - image: https://hrdf.org.sa/media/Event/%D8%AA%D8%B3%D8%B9%D8%A9-%D8%A7%D8%B9%D8%B4%D8%A7%D8%B11.jpg
+    language: ar
+    text: null
+  utter_P4l3rIQNl:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/Tawafuq/Tawafuq2.png
+    language: ar
+    text: null
+  utter_PHlr0Evzz:
+  - language: ar
+    quick_replies:
+    - payload: /business_faq_link{"faq_program_id":"18"}
+      title: دعم أجر أيام غسيل الكلى
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"63"}
+      title: برنامج قره -منشآت
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"86"}
+      title: دعم معاهد الشراكات الاستراتيجية
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"103"}
+      title: توطين عقود التشغيل والصيانة
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"122"}
+      title: برنامج  توافق - منشآت
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"130"}
+      title: برنامج توطين ( منشآت)
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":""}
+      title: المنصة الوطنية الموحدة للتوظيف
+      type: postback
+    - payload: /FAQS_Business_programs
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_PR0z5CpSu:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Training_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "نبذة عن البرنامج  \n  \nآلية دعم تمكن من إطلاق برامج تدريبية في المهارات العامة والمهارات التخصصية المهنية بالشراكة مع الجهات التدريبية المرخصة من الجهات المعنية، وموجهة للباحثين عن عمل والموظفين في القطاع الخاص، بهدف رفع مهارات الفئات المستهدفة وزيادة فرص توظيفهم في القطاع الخاص وزيادة استقرارهم على رأس العمل، من خلال تقليل الفجوة ما بين المهارات المطلوبة في الوظيفة ومهارات الباحث عن عمل أو الموظف."
+  utter_QdIZUfFCN:
+  - buttons:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    - payload: /business_faq_link
+      title: اسأل مجددا
+      type: postback
+    - payload: /HRDF_No_Are_You_Found
+      title: لا
+      type: postback
+    - payload: /HRDF_Yes_Are_You_Found
+      title: نعم
+      type: postback
+    language: ar
+    metadata:
+      forceClose: false
+      forceOpen: false
+      linkTarget: _blank
+      pageChangeCallbacks: null
+      pageEventCallbacks: null
+      userInput: show
+    text: هل وجدت ما تبحث عنه؟
+  utter_Qth6fkhN5:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    - payload: /HRDF_AR_Hadaf_Program_Indi
+      title: القائمة السابقة 🔙
+      type: postback
+    - title: تسجيل
+      type: web_url
+      url: https://www.taqat.sa/web/guest/individual
+    text: للتسجيل ببرنامج اعانه البحث عن عمل
+  utter_RyUUbFmFFG:
+  - language: ar
+    quick_replies:
+    - payload: /Indi_AR_Freelance_Job_Oppor_program_1
+      title: برنامج دعم توصيل الطلبات
+      type: postback
+    - payload: /Indi_AR_Freelance_Job_Oppor_program_2
+      title: برنامج توجيه مركبات نقل الركاب
+      type: postback
+    - payload: /HRDF_AR_Hadaf_Program_Indi
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_SWx-50d_j:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/5AYe
+    - payload: /Business_AR_Training_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    text: "برنامج التدريب الصيفي \"صيفي\" للمنشآت  \n  \n يهدف البرنامج الى تدريب الطلاب والطالبات خلال فترة الصيف و إتاحة الفرصة للمنشآت للاستفادة من الكفاءات الوطنية الشابة في تسيير أعمالها وإكسابها المهارات الأساسية اللازمة لدخول سوق العمل والتعرف على مهاراتهم وامكانياتهم لتوظيفهم مستقبلاً \" ."
+  utter_Sz5QNg54U:
+  - language: ar
+    text: الرجاء ادخل رقم التذكرة المبتدئ ب
+  utter_TM6tOFWgc:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/5AX2
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج إعانة البحث عن عمل  \n  \nبرنامج يدعم الباحثين عن عمل لتحفيزهم على الدخول الى سوق العمل، من خلال تقديم إعانة مالية لمدة 15 شهر تبدأ بمبلغ 2000 ريال بالإضافة الى تقديم مجموعة من خدمات التدريب والتوظيف لمساعدتهم في الحصول على عمل.\n"
+  utter_Tv6car0nY:
+  - elements:
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/5EBl
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: ' القائمة السابقة 🔙'
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/Qurrah/Qurrah2.png
+      subtitle: هي مبادرة من صندوق تنمية الموارد البشرية «هدف» ضمن برامج التحول الوطني،تهدف لتقديم برنامج يدعم تمكين المرأة العاملة السعودية من الالتحاق بسوق العمل.
+      title: برنامج قرة
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/5EBk
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/Wusool/WUSOOL2.png
+      subtitle: مبادرة وطنية أُنشئت من قبل صندوق تنمية الموارد البشرية"هدف" ويهدف لتمكين المرأة من العمل في القطاع الخاص ورفع مشاركتها في سوق العمل عن طريق مساعدة الموظفة في تخطي صعوبات المواصلات من وإلى مكان العمل.
+      title: 'برنامج وصول '
+    language: ar
+  utter_U9OsBZ31N:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/569x
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Training_Opor
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "المنصة الإلكترونية دروب  \n  \n\"دروب\" منصة وطنية للتدريب الإلكتروني، وهي إحدى مبادرات صندوق تنمية الموارد البشرية \"هدف\" التي تسعى إلى تطوير قدرات ورفع مهارات القوى الوطنية من الذكور والإناث، وإكسابهم المهارات الوظيفية التي تدعم حصول الوظيفة المناسبة والاستقرار فيها وفق متطلبات سوق العمل السعودي.\n"
+  utter_UHnJZgf5L:
+  - language: ar
+    quick_replies:
+    - payload: /Business_AR_Empowering_Women_Work
+      title: تمكين عمل المرأة للمنشآت
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities
+      title: فرص للتوظيف
+      type: postback
+    - payload: /Business_AR_Training_Opportunities
+      title: فرص للتدريب
+      type: postback
+    - payload: /Business_AR_Entrepreneurship_Opportu
+      title: فرص لريادة الأعمال
+      type: postback
+    - payload: /business_main_menu
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_UJZRs82vG:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/5EBm
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج دعم التوظيف  \n  \nيهدف البرنامج لدعم الباحثين والباحثات عن عمل في القطاع الخاص والقطاع غير الربحي بتحمل الصندوق نسبة من أجر الموظف، ويشمل البرنامج دعم جميع الوظائف في القطاع الخاص والقطاع غير الربحي للدوام الكامل."
+  utter_ULd7gHUts:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%84%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%8A%D8%A8%D8%B1%D8%A7%D9%86%D9%8A
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "حول اتفاقية الاتحاد السعودي للأمن السيبراني  \n  \nتأهيل وتدريب الباحثين عن عمل  \nيهدف البرنامج على تأهيل وتدريب عدد 1000 من الباحثين عن عمل ويقدم لهم التدريب النظري والعملي. بعد ذلك يتم العمل على توظيفهم لسد الاحتياج الوظيفي لدى منشآت القطاع الخاص والقطاع غير الربحي في مجالات الأمن السيبراني والبرمجة والبيانات والذكاء الاصطناعي."
+  utter_UUD1oeysf:
+  - language: ar
+    text: الغرض من الشكوى‎
+  utter_UVc4A-mQ4:
+  - language: ar
+    text: تصنيف الشكوى‎
+  utter_UhX5IVnGN:
+  - image: https://hrdf.org.sa/media/img/program/2n3.jpg
+    language: ar
+    text: null
+  utter_VCDlLQKpu:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/569w
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Training_Opor
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج التدريب الصيفي  \n  \nيهدف البرنامج الى تدريب الطلاب والطالبات خلال فترة الصيف و إتاحة الفرصة للمنشآت للاستفادة من الكفاءات الوطنية الشابة في تسيير أعمالها وإكسابها المهارات الأساسية اللازمة لدخول سوق العمل."
+  utter_Vi9VfGIbI:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%AA%D9%85%D9%87%D9%8A%D8%B1-%D9%84%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A3%D9%81%D8%B1%D8%A7%D8%AF
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Training_Opor
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "حول برنامج تمهير للتدريب على رأس العمل  \n  \nيهدف برنامج التدريب على رأس العمل \"تمهير\" الى تطوير مهارات خريجي الجامعات والمعاهد والكليات السعودية والأجنبية سواءً كانوا حديثي تخرج أو ممن سبق لهم العمل بهدف تدريبهم في المؤسسات الحكومية والشركات المتميزة في القطاع الخاص أو القطاع غير الربحي لإكتساب الخبرات والمهارات اللازمة لإعدادهم وتهيئتهم للمشاركة في سوق العمل.\n"
+  utter_VuymMJ3Hfp:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/Qurrah/Qurrah2.png
+    language: ar
+  utter_VvR3wkGJM:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/SaCyber/SaCyber2.png
+    language: ar
+  utter_W9JZ72FAE:
+  - language: ar
+    quick_replies:
+    - payload: /FAQS_Indivisual_Employment_Programs
+      title: فرص للتوظيف
+      type: postback
+    - payload: /FAQS_Indivisual_Training_Programs
+      title: فرص للتدريب
+      type: postback
+    - payload: /FAQS_Indivisual_Women'n_work_Programs
+      title: تمكين عمل المرأة
+      type: postback
+    - payload: /FAQS_Indivisual_Private_Employment_Programs
+      title: فرص العمل الحر‎
+      type: postback
+    - payload: /indi_main_menu
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى التصنيفات التالية ⬇️
+  utter_WCOY_SBCM:
+  - language: ar
+    text: "حياك الله عزيزي العميل..  \nمرحبًا بكم في المساعد الرقمي لخدمة العملاء لصندوق تنمية الموارد البشرية."
+  utter_WEdUy1moY:
+  - language: ar
+    quick_replies:
+    - payload: /srv_third_excellent
+      title: راضي تماما  😊
+      type: postback
+    - payload: /srv_thrid_very_good
+      title: راضي 🙂
+      type: postback
+    - payload: /srv_thrid_good
+      title: محايد😐
+      type: postback
+    - payload: /srv_thrid_not_good
+      title: غير راضي 😕
+      type: postback
+    - payload: /srv_thrid_bad
+      title: غير راضي على الإطلاق 🙁
+      type: postback
+    text: 'ما مدى صحة إجابة الرد الآلي على استفسارك؟  '
+  utter_Y2Q3talBR:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/57fN
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "  \nبرنامج مبادرة توطين عقود التشغيل والصيانة  \n  \nتم إطلاق مبادرة توطين عقود التشغيل والصيانة بالجهات العامة والتي تهدف الى رفع نسب التوطين في القطاع بالإضافة الى رفع كفاءة ومهارة السعوديين وتأهيلهم وفق افضل الممارسات بما يلبي متطلبات القطاع وزيادة جاذبية وظائفه\n"
+  utter_ZD19Wrum2:
+  - image: https://hrdf.org.sa/media/img/program/9n1.JPG
+    language: ar
+    text: null
+  utter__qWbXUGtl:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/StrategicPartnership/StrategicPartnership2.png
+    language: ar
+    text: null
+  utter_ask_Business_City:
+  - language: ar
+    text: 'أدخل المدينة  '
+  utter_ask_Business_Email:
+  - language: ar
+    text: أدخل البريد الالكتروني
+  utter_ask_Business_Mobile_Num:
+  - language: ar
+    text: 'أدخل رقم الجوال '
+  utter_ask_Business_Name:
+  - language: ar
+    metadata: null
+    text: 'أدخل اسم المنشأة '
+  utter_ask_Business_Owner_Name:
+  - language: ar
+    text: 'أدخل اسم المالك المفوض '
+  utter_ask_Business_Phone_Num:
+  - language: ar
+    text: أدخل رقم المنشأة بوزارة الموارد البشرية
+  utter_ask_Email:
+  - language: ar
+    text: أدخل البريد الالكتروني
+  utter_ask_Full_name:
+  - language: ar
+    text: أدخل اسمك بالكامل
+  utter_ask_Mobile_number:
+  - language: ar
+    text: أدخل رقم الجوال
+  utter_ask_Not_match_Num:
+  - language: ar
+    text: ' !غير مطابق N|N رقم'
+  utter_ask_Not_match_num:
+  - language: ar
+    text: رقم N | N غير متطابق!
+  utter_ask_Num_check:
+  - language: ar
+    text: ' N|N الرجاء إدخال رقم'
+  utter_ask_OTP_Not_match:
+  - language: ar
+    text: OTP غير متطابق
+  utter_ask_OTP_not_match:
+  - language: ar
+    text: ' غير متطابق OTP '
+  utter_ask_OTP_varification:
+  - language: ar
+    text: أدخل رقم (OTP) المكون من 4 أرقام
+  utter_ask_Owner_Num_Check:
+  - language: ar
+    text: الرجاء إدخال N | N للمالك أو المفوض
+  utter_ask_Varification:
+  - language: ar
+    text: أدخل رقم (OTP) المكون من 4 أرقام
+  utter_ask_check_ticket_status_single:
+  - language: ar
+    metadata: null
+    text: أدخل رقم التذكرة‎
+  utter_ask_city_name:
+  - language: ar
+    metadata: null
+    text: 'أدخل المدينة '
+  utter_ask_email_id:
+  - language: ar
+    text: أدخل البريد الالكتروني
+  utter_ask_full_name:
+  - language: ar
+    metadata: null
+    text: أدخل اسمك بالكامل
+  utter_ask_gen_email:
+  - language: ar
+    text: الأيميل
+  utter_ask_gen_full_name:
+  - language: ar
+    metadata: null
+    text: الأسم
+  utter_ask_gen_phone_number:
+  - language: ar
+    text: رقم الهاتف
+  utter_ask_get_complaint_category_id:
+  - language: ar
+    text: أدخل رقم فئة الشكوى
+  utter_ask_get_complaint_purpose_id:
+  - language: ar
+    text: أدخل رقم الغرض من الشكوى
+  utter_ask_get_message_purpose_id:
+  - language: ar
+    text: أدخل رقم الغرض من الرسالة
+  utter_ask_get_programe_name:
+  - language: ar
+    text: الرجاء ادخال رقم البرنامج المناسب من قائمة البرامج السابقة
+  utter_ask_get_programe_type:
+  - language: ar
+    quick_replies:
+    - payload: /gen_individual
+      title: فرد
+      type: postback
+    - payload: /gen_business
+      title: منشأة
+      type: postback
+    text: تصنيف العميل
+  utter_ask_indi_faq_question:
+  - language: ar
+    text: من فضلك أدخل السؤال
+  utter_ask_mobile_no:
+  - language: ar
+    text: أدخل رقم الجوال
+  utter_ask_region_name:
+  - language: ar
+    quick_replies:
+    - payload: /1
+      title: الرياض
+      type: postback
+    - payload: /2
+      title: مكة المكرمة
+      type: postback
+    - payload: /3
+      title: المدينة المنورة
+      type: postback
+    - payload: /4
+      title: المنطقة الشرقية
+      type: postback
+    - payload: /5
+      title: القصيم
+      type: postback
+    - payload: /6
+      title: حائل
+      type: postback
+    - payload: /7{"region_name":"عسير"}
+      title: عسير
+      type: postback
+    - payload: /8
+      title: جازان
+      type: postback
+    - payload: /9
+      title: الباحة
+      type: postback
+    - payload: /10
+      title: نجران
+      type: postback
+    - payload: /11
+      title: تبوك
+      type: postback
+    - payload: /12
+      title: الحدود الشمالية
+      type: postback
+    - payload: /13
+      title: الجوف
+      type: postback
+    - payload: /999
+      title: اخرى
+      type: postback
+    text: 'أدخل المنطقة '
+  utter_ask_select_customer_type:
+  - language: ar
+    text: الرجاء ادخال (رقم) نوع العميل المناسب من القائمة السابقة‎‎
+  utter_ask_survey_question_four:
+  - language: ar
+    metadata: null
+    text: يرجى ذكر أبرز الجوانب الإجابية والسلبية أثناء تلقيك هذه الخدمة
+  utter_ask_test_one:
+  - buttons:
+    - payload: /rigion_riyad
+      title: Riyadh
+      type: postback
+    - payload: /region_mecca
+      title: Mecca
+      type: postback
+    language: ar
+    text: Please select Region
+  utter_ask_ticket_email_id:
+  - language: ar
+    metadata: null
+    text: أدخل البريد الإلكتروني
+  utter_ask_ticket_full_name:
+  - language: ar
+    metadata: null
+    text: أدخل الاسم الكامل
+  utter_ask_ticket_mobile_no:
+  - language: ar
+    metadata: null
+    text: أدخل رقم الجوال
+  utter_ask_ticket_nin_number:
+  - language: ar
+    metadata: null
+    text: أدخل رقم الهوية الوطنية‎
+  utter_ask_ticket_title:
+  - language: ar
+    metadata: null
+    text: أدخل عنوان التذكرة
+  utter_ask_الأسم_الكامل:
+  - language: ar
+    text: أدخل اسمك بالكامل
+  utter_ask_البريد_الألكتروني:
+  - language: ar
+    text: أدخل البريد الالكتروني
+  utter_ask_المدينه:
+  - language: ar
+    text: 'أدخل المدينة '
+  utter_ask_المنطقه:
+  - language: ar
+    text: 'أدخل المنطقة '
+  utter_ask_رقم_الموبايل:
+  - language: ar
+    text: أدخل رقم الجوال
+  utter_asking_other_services:
+  - buttons:
+    - payload: /Main_menu
+      title: نعم
+      type: postback
+    - payload: /srv_take_survey
+      title: لا
+      type: postback
+    language: ar
+    text: هل تحتاج اي خدمات اخرى؟
+  utter_bEPI0-GI3:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%AD%D8%B1-%D8%A7%D9%84%D9%86%D9%82%D9%84-%D8%A7%D9%84%D9%85%D9%88%D8%AC%D9%87
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Freelance_Job_Oppor
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج توجيه مركبات نقل الركاب عبر التطبيقات  \n  \nيهدف برنامج دعم العمل الحر (النقل الموجه) إلى مساعدة العاملين في نشاط توجيه مركبات نقل الركاب عبر التطبيقات. وهو مخصص للمتفرغين للعمل في هذا النشاط والباحثين عن عمل كما يعتبر نتاج تعاون وزارة الموارد البشرية والتنمية الاجتماعية والهيئة العامة للنقل وصندوق تنمية الموارد البشرية \"هدف\" وشركة عمل المستقبل."
+  utter_bM-5ZJ-9R:
+  - elements:
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/5AYV
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/RealEstateRes/RealEstateRes2.png
+      subtitle: ' رفع مهارات الباحثين عن عمل من الذكور والإناث في مهن القطاع العقاري، من خلال دورات تدريبية نظرية وعملية متخصصة في مجال العقار. '
+      title: رفع مهارات الباحثين عن عمل (برامج التوطين)
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/5AYb
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/Event/%D8%AF%D8%B1%D9%88%D8%A8.jpg
+      subtitle: دروب-منشآت هي خدمة مقدمة من صندوق تنمية الموارد البشرية "هدف" والتي تتيح للمنشآت متابعة الاداء التدريبي لموظفيها
+      title: المنصة الإلكترونية دروب -منشآت
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/5AYe
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/SAIFI/Saifi2.png
+      subtitle: ' يهدف البرنامج الى تدريب الطلاب والطالبات خلال فترة الصيف و إتاحة الفرصة للمنشآت للاستفادة من الكفاءات الوطنية الشابة في تسيير أعمالها وإكسابها المهارات الأساسية اللازمة لدخول سوق العمل والتعرف على مهاراتهم وامكانياتهم لتوظيفهم مستقبلاً " .'
+      title: برنامج التدريب الصيفي "صيفي" للمنشآت
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/57BL
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/Taqat/TAQAT2.png
+      subtitle: منصة الكترونية شاملة لسوق العمل في المملكة العربية السعودية بشقيه العام والخاص ومزودي خدمات التوظيف، تجمع بين الباحثين عن العمل وأصحاب الأعمال وتتيح تقديم وتبادل خدمات التوظيف والتدريب
+      title: البوابة الوطنية للعمل طاقات
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/57BM
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/img/program/9n1.JPG
+      subtitle: يهدف برنامج تمهير إلى تدريب الخريجين السعوديين من الجامعات المحلية والخارجية لدى المؤسسات الحكومية والشركات المتميزة في القطاع الخاص والقطاع غير الربحي، ليتمكنوا من اكتساب الخبرات والمهارات اللازمة وتهيئتهم للمشاركة في سوق العمل
+      title: برنامج التدريب على رأس العمل تمهير
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/57BN
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/HRDF/HRDF2.png
+      subtitle: ' هي أكاديمية تعليمية تدريبية أنشاها صندوق الموارد البشرية عام 1440هـ بهدف إعداد وتطوير قيادات المنشآت في المملكة. وذلك تحقيقاً لرؤية المملكة 2030 (التوطين النوعي المتميز لقيادات لها القدرة على التخطيط الإبداعي والابتكاري)  '
+      title: أكاديمية "هدف" للقيادة
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://hrdf.org.sa/home
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/StrategicPartnership/StrategicPartnership2.png
+      subtitle: ''
+      title: برنامج مهارات
+    language: ar
+  utter_bYhBXDKOs:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/RealEstateRes/RealEstateRes2.png
+    language: ar
+    text: null
+  utter_bye:
+  - language: ar
+    text: شكراً لتواصلكم ونتطلع لخدمتكم مستقبلاً‎
+  utter_cztdZt04g:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/Qurrah/Qurrah2.png
+    language: ar
+    text: null
+  utter_dcj4912RY:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/57fX
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "البوابة الوطنية للعمل طاقات   \n  \nمنصة الكترونية شاملة لسوق العمل في المملكة العربية السعودية بشقيه العام والخاص ومزودي خدمات التوظيف، تجمع بين البحاثين عن العمل وأصحاب الأعمال وتتيح تقديم وتبادل خدمات التوظيف والتدريب بكفاءة وفعالية لزيادة استقرار وتطوير القوى العاملة في سوق العمل السعودي والمساهمة بعرض الفرص الوظيفية بشكل عادل للجميع"
+  utter_deepeF-nO:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%AD%D8%AF%D8%A9-%D9%84%D9%84%D8%AA%D9%88%D8%B8%D9%8A%D9%81
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "نبذة  \n  \nهي منصة توظيف رقمية تعرض وظائف بالقطاعين العام والخاص بالمملكة العربية السعودية.  \n  \nتقدم المنصة قاعدة بيانات شاملة بالوظائف الشاغرة بالقطاعين العام والخاص وتحتوي على كافة الإعدادات لمساعدة الباحثين عن عمل في مسيرة البحث عن الوظائف والتقدم لها.  \n  \nفي الإصدار الثاني سوف تقدم المنصة لأصحاب العمل إمكانية الإعلان عن الوظائف الشاغرة وإدارة طلبات التوظيف."
+  utter_default:
+  - language: ar
+    quick_replies:
+    - payload: /Main_menu
+      title: القائمة الرئيسية 🏠
+      type: postback
+    - payload: /HRDF_Transfer_To_Agent
+      title: تواصل مع موظف
+      type: postback
+    text: ⚠ عذرا..لخدمتك بشكل أفضل، الرجاء اختر إحدى الخيارات المتاحة
+  utter_disambiguation:
+  - language: ar
+    text: هل تبحث عن إحدى الخيارات التالية؟
+  utter_eDeaHFihN:
+  - language: ar
+    text: "حياك الله عزيزي العميل..  \nمرحبًا بكم في المساعد الرقمي لخدمة العملاء لصندوق تنمية الموارد البشرية."
+  utter_fF7Kl-o29:
+  - language: ar
+    text: 'أو أدخل # للرجوع للقائمة الرئيسية '
+  utter_fHT34IeWY:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /Business_AR_Empowering_Women_Work_Qurah_program
+      title: برنامج قرة
+      type: postback
+    - payload: /HRDF_AR_Hadaf_Program_Business
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_fallback:
+  - buttons:
+    - payload: /Main_menu
+      title: القائمة الرئيسية 🏠
+      type: postback
+    - payload: /HRDF_Transfer_To_Agent
+      title: تواصل مع موظف
+      type: postback
+    language: ar
+    text: ⚠ عذرا..لخدمتك بشكل أفضل، الرجاء اختر إحدى الخيارات المتاحة
+  utter_g-lSxstik:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://www.hrdf.org.sa/program/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج دعم التوظيف - المسار الصناعي  \n  \nهو أحد مسارات برنامج دعم التوظيف المقدم من صندوق تنمية الموارد البشرية و يُمكِّن هذا المسار، منشآت القطاع الخاص في الاستفادة من ممكنات وبرامج صندوق تنمية الموارد البشرية التي تدعم تدريب وتوظيف الكوادر الوطنية في القطاع الصناعي، والمنبثقة من مبادرة توطين القطاع، التي تعمل عليها عدة جهات حكومية، بهدف رفع نسب توطين القطاع وتحفيز الاستثمارات الصناعية للنمو، وتحقيق مستهدفات رؤية 2030 في هذا المجال."
+  utter_gcoxeK8lh:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/5EBi
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Training_Opor
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج كوادر السلامة والصحة المهنية  \n  \nتهدف هذه المبادرة التي أطلقتها وزارة العمل والتنمية الاجتماعية بدعم من صندوق تنمية الموارد البشرية لتعزيز معرفة ومهارة الكوادر البشرية في مجال السلامة والصحة المهنية من خلال مسارين: ممارس ومحترف وذلك بهدف تعزيز تطبيق ممارسات السلامة والصحة المهنية في المنشآت.\n"
+  utter_gmPwGj7Rz:
+  - elements:
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/5AX2
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/20n.jpg
+      subtitle: برنامج يدعم الباحثين عن عمل لتحفيزهم على الدخول الى سوق العمل، من خلال تقديم إعانة مالية لمدة 15 شهر تبدأ بمبلغ 2000 ريال بالإضافة الى تقديم مجموعة من خدمات التدريب والتوظيف لمساعدتهم في الحصول على عمل.
+      title: برنامج إعانة البحث عن عمل
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/5AXJ
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/Tawafuq/Tawafuq2.png
+      subtitle: يهدف برنامج توظيف الأشخاص ذوي الإعاقة إلى دعم وتمكين القوى العاملة من ذوي الإعاقة للعمل في القطاع الخاص والقطاع غير الربحي من خلال مبادئ برنامج توافق.
+      title: 'برنامج توافق '
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://eservices.taqat.sa/Eservices_Individual/ProgramDetails.aspx?Id=14
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/Taqat/TAQAT2.png
+      subtitle: تعتبر زيادة معدلات التوظيف من الأهداف الرئيسية لرؤية المملكة 2030؛ وبتعاون وزارة الموارد البشرية والتنمية الاجتماعية مع باقي الوزارات والجهات الحكومية، تم إطلاق برنامج توطين لدعم المنشآت والباحثين عن عمل وفق آليات منظمة ومدة زمنية محددة.
+      title: برنامج توطين
+    language: ar
+  utter_hEx6uqAZL:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /business_faq_link{"faq_program_id":"76"}
+      title: دعم خدمة ضيافة الأطفال للمرأة العاملة - قرة
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"77"}
+      title: برنامج دعم نقل المرأه العاملة وصول
+      type: postback
+    - payload: /FAQS_Indivisual_Programs
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_hlKBLss1d:
+  - language: ar
+    quick_replies:
+    - payload: /Main_menu
+      title: القائمة الرئيسية 🏠
+      type: postback
+    - payload: /srv_take_survey
+      title: التقييم‎
+      type: postback
+    text: يرجى المساهمة في تحسين الخدمة من خلال التقييم ادناه
+  utter_hu5WtAH1g:
+  - language: ar
+    text: رفع الطلب‎
+  utter_iLiDanuVw:
+  - language: ar
+    quick_replies:
+    - payload: /business_faq_link{"faq_program_id":"78"}
+      title: برنامج سبل
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"80"}
+      title: برنامج التدريب الصيفي
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"81"}
+      title: برنامج تمهير
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"82"}
+      title: دروب افراد
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"83"}
+      title: برنامج الشهادات المهنية الاحترافية
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"102"}
+      title: برنامج كوادر السلامة والصحة المهنية
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"123"}
+      title: برنامج مُمكن
+      type: postback
+    - payload: /FAQS_Indivisual_Programs
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_ib23diEbMz:
+  - language: ar
+    quick_replies:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    text: شكرا لتواصلك معنا من فضلك قم بإجراء التقييم.
+  utter_iexk9C7GP:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/57BN
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Training_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "أكاديمية \"هدف\" للقيادة  \n  \n هي أكاديمية تعليمية تدريبية أنشاها صندوق الموارد البشرية عام 1440هـ بهدف إعداد وتطوير قيادات المنشآت في المملكة. وذلك تحقيقاً لرؤية المملكة 2030 (التوطين النوعي المتميز لقيادات لها القدرة على التخطيط الإبداعي والابتكاري)"
+  utter_indi_programe:
+  - language: ar
+    quick_replies:
+    - payload: /Indi_AR_Empowering_Women_work
+      title: تمكين عمل المرأة
+      type: postback
+    - payload: /Indi_AR_Freelance_Job_Oppor
+      title: فرص للعمل الحر
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities
+      title: فرص توظيف
+      type: postback
+    - payload: /Indi_AR_Training_Opportunities
+      title: فرص للتدريب
+      type: postback
+    - payload: /indi_main_menu
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_invalid_Business_City:
+  - language: ar
+    text: الرجاء إدخال اسم المدينة الصحيحة
+  utter_invalid_Business_Email:
+  - language: ar
+    text: الرجاء إدخال البريد الإلكتروني الصحيح
+  utter_invalid_Business_Mobile_Num:
+  - language: ar
+    text: الرجاء إدخال رقم الجوال الصحيح (05XXXXXXX مثال)‎
+  utter_invalid_Business_Name:
+  - language: ar
+    text: الرجاء إدخال اسم المنشأة الصحيح
+  utter_invalid_Business_Owner_Name:
+  - language: ar
+    text: الرجاء إدخال اسم المالك المفوض الصحيح
+  utter_invalid_Business_Phone_Num:
+  - language: ar
+    text: الرجاء إدخال رقم المنشأة الصحيح‎ (01XXXXXXX مثال)‎
+  utter_invalid_check_ticket_status_single:
+  - language: ar
+    text: "الرجاء ادخل رقم التذكرة المبتدئ ب  \n CAS- أو  TKT- أو CU-  \nأو أدخل # للرجوع للقائمة الرئيسية"
+  utter_invalid_city_name:
+  - language: ar
+    text: الرجاء إدخال اسم المدينة الصحيحة
+  utter_invalid_email_id:
+  - language: ar
+    text: الرجاء إدخال البريد الإلكتروني الصحيح
+  utter_invalid_full_name:
+  - language: ar
+    text: الرجاء ادخال اسم صحيح
+  utter_invalid_gen_phone_number:
+  - language: ar
+    text: ادخل رقم صحيح للهاتف الخاص بكم
+  utter_invalid_get_complaint_category_id:
+  - language: ar
+    text: أدخل رقمًا صالحًا ، بحد أدنى 1 و 3 كحد أقصى
+  utter_invalid_get_complaint_purpose_id:
+  - language: ar
+    text: أدخل رقمًا صالحًا ، بحد أدنى 1 و 3 كحد أقصى
+  utter_invalid_get_message_purpose_id:
+  - language: ar
+    text: أدخل رقمًا صالحًا بحد أدنى 1 و 3 كحد أقصى
+  utter_invalid_get_programe_name:
+  - language: ar
+    text: أدخل رقمًا صالحًا بحد أدنى 1 و 3 كحد أقصى
+  utter_invalid_indi_faq_question:
+  - language: ar
+    text: الرجاء إدخال سؤالك
+  utter_invalid_mobile_no:
+  - language: ar
+    text: أدخل رقم الجوال الصحيح (05XXXXXXX)
+  utter_invalid_region_name:
+  - language: ar
+    text: الرجاء إدخال اسم المنطقة الصحيحة
+  utter_invalid_select_customer_type:
+  - language: ar
+    text: أدخل رقمًا صالحًا بحد أدنى 1 و 3 كحد أقصى
+  utter_invalid_ticket_email_id:
+  - language: ar
+    text: الرجاء إدخال البريد الإلكتروني الصحيح
+  utter_invalid_ticket_full_name:
+  - language: ar
+    text: أدخل اسمًا صالحًا
+  utter_invalid_ticket_mobile_no:
+  - language: ar
+    text: أدخل رقم الجوال الصحيح (05XXXXXXX)
+  utter_invalid_ticket_nin_number:
+  - language: ar
+    text: الرجاء ادخال رقم هوية صحيح مكون من 10 أرقام‎
+  utter_invalid_ticket_title:
+  - language: ar
+    text: أدخل عنوان تذكرة صالح
+  utter_invalid_الأسم_الكامل:
+  - language: ar
+    text: الرجاء ادخال اسم صحيح
+  utter_invalid_البريد_الألكتروني:
+  - language: ar
+    text: الرجاء إدخال البريد الإلكتروني الصحيح
+  utter_invalid_المدينه:
+  - language: ar
+    text: الرجاء إدخال اسم المدينة الصحيحة
+  utter_invalid_المنطقه:
+  - language: ar
+    text: "الرجاء إدخال اسم المنطقة الصحيحة\n\n"
+  utter_invalid_رقم_الموبايل:
+  - language: ar
+    text: أدخل رقم الجوال الصحيح
+  utter_ixMPqByFz:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/SAIFI/Saifi2.png
+    language: ar
+    text: null
+  utter_j1WSIF7Ln:
+  - language: ar
+    text: الرجاء تزويدنا بالبيانات المطلوبة حيث سيتم ارسال بياناتك الى فرع هدف بمنطقتكم لمساعدتك بالحصول على وظيفة مناسبة
+  utter_j22qesriK:
+  - language: ar
+    quick_replies:
+    - payload: /Yes
+      title: نعم
+      type: postback
+    - payload: /No
+      title: لا
+      type: postback
+    - payload: /Main_menu
+      title: القائمة السابقة 🔙
+      type: postback
+    text: هل وجدت ما تبحث عنه ؟
+  utter_jgG49JTKJ:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/569y
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Training_Opor
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "بوابة التطوير والتثقيف المهني (سُبل)  \n  \nتهدف هذه البوابة إلى تمكين جميع السعوديين من اتخاذ خيارات تعلم وخيارات وظيفية أفضل عن طريق بناء منظومة متكاملة من خدمات التثقيف والإرشاد المهني لكل من طلاب الثانوي وطلاب الجامعات والمعاهد والباحثين عن عمل والموظفين.\n"
+  utter_jiXlFolJ3:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    - payload: /HRDF_Close_Conversation
+      title: اغلاق المحادثة
+      type: postback
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /hrdf.create_ticket
+      title: 'رفع تذكرة '
+      type: postback
+    - payload: /HRDF_Transfer_To_Agent
+      title: 'تواصل مع موظف '
+      type: postback
+    text: الرجاء اختيار إحدى الخيارات التالية ⬇️
+  utter_kCW-qnFhp:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/57fT
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج توافق   \n  \nيهدف برنامج توظيف الأشخاص ذوي الإعاقة إلى دعم وتمكين القوى العاملة من ذوي الإعاقة للعمل في القطاع الخاص والقطاع غير الربحي من خلال مبادئ برنامج توافق."
+  utter_krfknLwKl:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/SUBOL/%D8%B4%D9%87%D8%A7%D8%AF%D8%A7%D8%AA9.PNG
+    language: ar
+    text: null
+  utter_kzDf5Pbgy:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://www.hrdf.org.sa/program/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج دعم التوظيف- المسار السياحي  \n  \n يُمكِّن هذا المسار، منشآت القطاع الخاص من الاستفادة من ممكنات وبرامج صندوق تنمية الموارد البشرية التي تدعم تدريب وتوظيف الكوادر الوطنية في القطاع السياحي، والمنبثقة من مبادرة توطين القطاع، التي تعمل عليها عدة جهات حكومية، بهدف رفع نسب توطين القطاع وتحفيز الاستثمارات السياحية للنمو، وتحقيق مستهدفات رؤية 2030 في هذا المجال."
+  utter_l93yrYzcj:
+  - image: https://hrdf.org.sa/media/img/program/9n1.JPG
+    language: ar
+    text: null
+  utter_lAQ26pwi2:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    text: الموظف راح يكون معك قريبا..
+  utter_lLQxRAW2P:
+  - elements:
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/57fA
+      - payload: /HRDF_AR_Hadaf_Program_Business
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /business_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/Qurrah/Qurrah2.png
+      subtitle: يهدف إلى خلق جسر تواصل بين مراكز الضيافة لطرح خدماتها وتسويقها للعاملات السعوديات في القطاع الخاص والقطاع غير الربحي لتسجيل أبنائهم، بالإضافة إلى دعم تمكين المرأة العاملة من الالتحاق بسوق العمل والاستمرار فيه
+      title: ' برنامج قرة'
+    language: ar
+  utter_leap_falback:
+  - language: ar
+    text: default fallback from action server
+  utter_lpaxJyS_G:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/57fK
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "برنامج توطين مهن القطاع العقاري  \n  \n- رفع مهارات الباحثين عن عمل من الذكور والإناث في مهن القطاع العقاري، من خلال دورات تدريبية نظرية وعملية متخصصة في مجال العقار."
+  utter_mQ2gCK07e:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    - payload: /Indi_Registration_in_Taqat
+      title: القائمة السابقة 🔙
+      type: postback
+    - title: تسجيل
+      type: web_url
+      url: 'https://eservices.taqat.sa/Eservices_Individual/Home.aspx '
+    text: "البوابة الوطنية للعمل \"طاقات\" إحدى مبادرات صندوق تنمية الموارد البشرية \"هدف\" لتوفر خدمات التوظيف والتدريب بكفاءة وفعالية لزيادة استقرار وتطوير أبناء وبنات الوطن وزيادة تواجدهم وفاعليتهم في سوق العمل السعودي.  \n  \nللتسجيل ببرامج هدف الأخرى"
+  utter_m_2FDbwjM:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/5EBl
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Empowering_Women_work
+      title: ' القائمة السابقة 🔙'
+      type: postback
+    text: "برنامج قرة  \n    \nهي مبادرة من صندوق تنمية الموارد البشرية «هدف» ضمن برامج التحول الوطني،تهدف لتقديم برنامج يدعم تمكين المرأة العاملة السعودية من الالتحاق بسوق العمل."
+  utter_m_XVWRkdl:
+  - image: https://hrdf.org.sa/media/HRDFphotos/HomePageThumbnailPrograms/910ths.png
+    language: ar
+  utter_main_menu:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /business_main_menu
+      title: منشأة
+      type: postback
+    - payload: /indi_main_menu
+      title: فرد
+      type: postback
+    text: الرجاء اختيار فئة العميل المناسبة من الخيارات التالية ⬇️
+  utter_n4fiFZhDI:
+  - language: ar
+    text: ''
+  utter_n9NTdfFNi:
+  - elements:
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/5EBi
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/SafetyCadres/SafetyCadres2.png
+      subtitle: 'تهدف هذه المبادرة التي أطلقتها وزارة العمل والتنمية الاجتماعية بدعم من صندوق تنمية الموارد البشرية لتعزيز معرفة ومهارة الكوادر البشرية في مجال السلامة والصحة المهنية من خلال مسارين: ممارس ومحترف وذلك بهدف تعزيز تطبيق ممارسات السلامة والصحة المهنية في المنشآت.'
+      title: برنامج كوادر السلامة والصحة المهنية
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/569u
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/Possible/possible2.png
+      subtitle: يهدف برنامج ممكن لتقديم دعم التدريب لمنشآت القطاع الخاص والقطاع غير الربحي
+      title: برنامج ممكن
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://eservices.taqat.sa/Eservices_Individual/ProgramDetails.aspx?Id=14
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/Taqat/TAQAT2.png
+      subtitle: تعتبر زيادة معدلات التوظيف من الأهداف الرئيسية لرؤية المملكة 2030؛ وبتعاون وزارة الموارد البشرية والتنمية الاجتماعية مع باقي الوزارات والجهات الحكومية، تم إطلاق برنامج توطين لدعم المنشآت والباحثين عن عمل وفق آليات منظمة ومدة زمنية محددة.
+      title: برنامج توطين
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/569w
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/SAIFI/Saifi2.png
+      subtitle: يهدف البرنامج الى تدريب الطلاب والطالبات خلال فترة الصيف و إتاحة الفرصة للمنشآت للاستفادة من الكفاءات الوطنية الشابة في تسيير أعمالها وإكسابها المهارات الأساسية اللازمة لدخول سوق العمل.
+      title: برنامج التدريب الصيفي
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/569x
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/DOROOB/DOROOB2.png
+      subtitle: '"دروب" منصة وطنية للتدريب الإلكتروني، وهي إحدى مبادرات صندوق تنمية الموارد البشرية "هدف" التي تسعى إلى تطوير قدرات ورفع مهارات القوى الوطنية من الذكور والإناث، وإكسابهم المهارات الوظيفية التي تدعم حصول الوظيفة المناسبة والاستقرار فيها وفق متطلبات سوق العمل السعودي.'
+      title: المنصة الإلكترونية دروب
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/569y
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/HomePageThumbnailPrograms/SUBOL.png
+      subtitle: تهدف هذه البوابة إلى تمكين جميع السعوديين من اتخاذ خيارات تعلم وخيارات وظيفية أفضل عن طريق بناء منظومة متكاملة من خدمات التثقيف والإرشاد المهني لكل من طلاب الثانوي وطلاب الجامعات والمعاهد والباحثين عن عمل والموظفين.
+      title: بوابة التطوير والتثقيف المهني (سُبل)
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/569z
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/ProfessionalCareerC/ProfessionalCareerC2.png
+      subtitle: هو برنامج يدعم من قبل صندوق تنمية الموارد البشرية بالتعويض عن تكاليف التدريب و رسوم الاختبارات
+      title: دعم الشهادات المهنية الإحترافية
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://ggle.io/56A3
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/img/program/9n1.JPG
+      subtitle: يهدف برنامج التدريب على رأس العمل "تمهير" الى تطوير مهارات خريجي الجامعات والمعاهد والكليات السعودية والأجنبية سواءً كانوا حديثي تخرج أو ممن سبق لهم العمل
+      title: برنامج تمهير للتدريب
+    - buttons:
+      - title: للمزيد من المعلومات
+        type: web_url
+        url: https://eservices.taqat.sa/Eservices_Individual/ProgramDetails.aspx?Id=19
+      - payload: /HRDF_AR_Hadaf_Program_Indi
+        title: القائمة السابقة 🔙
+        type: postback
+      - payload: /individual_faq_link
+        title: الاستفسارات
+        type: postback
+      default_action: null
+      image_url: https://hrdf.org.sa/media/HRDFphotos/Programs/Taqat/TAQAT2.png
+      subtitle: 'نظراً لما يمثله قطاع التشغيل والصيانة من فرص واعدة للتوطين فقد وجه مجلس الوزراء بتشكيل لجنة توجيهية لتوطين عقود التشغيل والصيانة برئاسة معالي نائب وزير الموارد البشرية والتنمية الاجتماعية للعمل وعضوية كل من: وزارة المالية، والمؤسسة العامة للتدريب التقني والمهني، وصندوق تنمية الموارد البشرية، وهيئة المحتوى المحلي والمشتريات الحكومية، وهيئة كفاءة الإنفاق والمشروعات الحكومية'
+      title: برنامج توطين عقود التشغيل والصيانة
+    language: ar
+  utter_nAegbjVYhr:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/SUBOL/%D8%B7%D8%A7%D9%82%D8%A7%D8%AA-3.jpg
+    language: ar
+    text: null
+  utter_nHr8xPy2P:
+  - language: ar
+    text: لحظات من فضلك لعرض قائمة البرامج‎..‎
+  utter_oLr3RVVhS:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%85%D9%85%D9%83%D9%86
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Training_Opor
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "حول برنامج ممكن  \n  \nدعم التدريب لمنشآت القطاع الخاص  \nيهدف برنامج ممكن لتقديم دعم التدريب لمنشآت القطاع الخاص والقطاع غير الربحي من خلال برامج تدريبية متخصصة لرفع مهارات موظفيهم لتواكب الاحتياج الحالي في القطاع الخاص والقطاع غير الربحي من خلال التدريب الإلكتروني والذي سوف يتم إلكترونياً بالتعاون مع الهيئات والأكاديميات الحكومية من تقديم برامجهم التدريبية للمستفيدين إلكترونيا.\n"
+  utter_oQxCXa808:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/HRDF/HRDF2.png
+    language: ar
+    text: null
+  utter_ompmDWLHt:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /Business_AR_Employment_Opportunities_program_1
+      title: برنامج توطين مهن القطاع العقاري
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities_program_2
+      title: مبادرة توطين عقود التشغيل والصيانة
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities_program_3
+      title: دعم أجر أيام غسيل الكلى
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities_program_4
+      title: 'برنامج توافق '
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities_program_5
+      title: برنامج قرة
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities_program_6
+      title: البوابة الوطنية للعمل طاقات
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities_program_7
+      title: دعم معاهد الشراكات الاستراتيجية
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities_program_8
+      title: برنامج دعم التوظيف
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities_program_9
+      title: دعم التوظيف المسار الصناعي
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities_program_10
+      title: برنامج دعم التوظيف المسار السياحي
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities_program_11
+      title: برنامج توطين منشآت
+      type: postback
+    - payload: /HRDF_AR_Hadaf_Program_Business
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_pCouMo9Pw:
+  - language: ar
+    text: default fallback message from story
+  utter_pT4VRUanQ:
+  - language: ar
+    text: الرجاء تزويدنا بالبيانات المطلوبة حيث سيتم التواصل معك من قبل الموظف المختص لمساعدتك في إجراءات تقديمكم على طلب الدعم
+  utter_pbE9nP6N3:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/DomiciliationContracts/DomiciliationContracts2.png
+    language: ar
+    text: null
+  utter_pj7EEOkE-:
+  - language: ar
+    text: الرجاء ادخل رقم التذكرة المبتدئ ب
+  utter_qDgT8O_h2:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /Indi_Help_Find_a_Job
+      title: اعانه البحث عن عمل
+      type: postback
+    - payload: /Indi_Other_Hadaf_Program
+      title: ' برامج هدف الأخرى '
+      type: postback
+    - payload: /indi_main_menu
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى الخيارات التالية ⬇️
+  utter_qQGVl24RY:
+  - image: https://hrdf.org.sa/media/HRDFphotos/HomePageThumbnailPrograms/SUBOL.png
+    language: ar
+    text: null
+  utter_qU-1pMnRA:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://ggle.io/5AYV
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Business_AR_Training_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "رفع مهارات الباحثين عن عمل (برامج التوطين)  \n  \n  \nيهدف البرنامج إلى دعم تأهيل القوى الوطنية العاملة في مهن العقار من خلال:   \n- رفع مهارات الباحثين عن عمل من الذكور والإناث في مهن القطاع العقاري، من خلال دورات تدريبية نظرية وعملية متخصصة في مجال العقار.   \n- توظيف مجتازي الدورات التدريبية بنفس المجال الذي تم التدريب عليه في منشآت القطاع العقاري."
+  utter_qm39UERMs:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /Indi_AR_Empowering_Women_work
+      title: تمكين عمل المرأة
+      type: postback
+    - payload: /Indi_AR_Freelance_Job_Oppor
+      title: فرص للعمل الحر
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities
+      title: فرص للتوظيف
+      type: postback
+    - payload: /Indi_AR_Training_Opor
+      title: فرص للتدريب
+      type: postback
+    - payload: /Indi_Hadaf_programs_help_find_job
+      title: 'اعانه البحث عن عمل '
+      type: postback
+    - payload: /indi_main_menu
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_rCudJyh6O:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/Initiatives/Interactivetrain/Interactivetrain2.png
+    language: ar
+    text: null
+  utter_r_p9FxXSm:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - payload: /Business_AR_Employment_Opportunities_program_3
+      title: دعم أجر أيام غسيل الكلى-منشآت
+      type: postback
+    - payload: /Business_AR_Training_Opportunities_program_7
+      title: دعم معاهد الشراكات الاستراتيجية-منشآت
+      type: postback
+    - payload: /Indi_AR_Training_Opportunities_program_8
+      title: برنامج دعم التوظيف-منشآت
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities_program_9
+      title: دعم التوظيف المسار الصناعي-منشآت
+      type: postback
+    - payload: /Business_AR_Employment_Opportunities_program_10
+      title: برنامج دعم التوظيف المسار السياحي-منشآت
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities_program_1
+      title: برنامج إعانة البحث عن عمل-افراد
+      type: postback
+    - payload: /Indi_AR_Training_Opportunities_program_9
+      title: دعم الشهادات المهنية الإحترافية-افراد
+      type: postback
+    - payload: /Indi_AR_Freelance_Job_Oppor_program_1
+      title: برنامج دعم توصيل الطلبات-افراد
+      type: postback
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    text: هل تقصد هذه البرامج الخاصة بالدعم
+  utter_reWqXBMrN:
+  - language: ar
+    quick_replies:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    text: "نتطلع دائما لإرضائكم.  \nدمتم بخير.."
+  utter_s55ZTAU7s:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/Tawafuq/Tawafuq2.png
+    language: ar
+    text: null
+  utter_s8DyJB7Gs:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/DOROOB/DOROOB2.png
+    language: ar
+    text: null
+  utter_sC0ISc48X:
+  - language: ar
+    text: لحظات من فضلك لعرض قائمة تصنيفات الدعم الفني..‎‎‎
+  utter_tIeD-VYIb:
+  - language: ar
+    quick_replies:
+    - payload: /business_faq_link{"faq_program_id":"141"}
+      title: برنامج دعم توصيل الطلبات
+      type: postback
+    - payload: /FAQS_Indivisual_Programs
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_tZekNhCIw:
+  - language: ar
+    metadata: null
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A7%D9%84%D8%AC%D9%84%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A%D8%A9
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Training_Opor
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "الجلسات التدريبية التفاعلية  \n  \nجلسة تدريبية نقاشية تقدم من خبير متخصص في مجال موضوع الجلسة، ويتم  تقديمها كبث مباشر بحيث يتاح للحضور طرح أسئلتهم والتفاعل مع المتحدث. تستهدف الجلسات الباحث عن عمل ومن هو على رأس العمل لزيادة المعرفة ورفع المهارات في مجالات متعددة تلبي احتياجات سوق العمل، ويتم تسجيل الجلسات وإعادة نشرها على منصة دروب لاحقاً.\n"
+  utter_tgAO-Vvt7:
+  - language: ar
+    quick_replies:
+    - payload: /business_main_menu
+      title: القائمة السابقة 🔙
+      type: postback
+    - payload: /Business_Semi_Government
+      title: 'القطاع شبة الحكومي وشبة الربحي '
+      type: postback
+    - payload: /Business_Private_Sector
+      title: ' القطاع الخاص '
+      type: postback
+    text: الرجاء اختيار إحدى الخيارات التالية ⬇️
+  utter_tpa09Zbb0:
+  - language: ar
+    quick_replies:
+    - title: للمزيد من المعلومات
+      type: web_url
+      url: https://hrdf.org.sa/program/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%AA%D9%88%D8%B7%D9%8A%D9%86
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    - payload: /Indi_AR_Employment_Opportunities
+      title: القائمة السابقة 🔙
+      type: postback
+    text: "نبذة عن برنامج توطين  \n  \nتعتبر زيادة معدلات التوظيف من الأهداف الرئيسية لرؤية المملكة 2030 ؛ وبتعاون وزارة الموارد البشرية والتنمية الاجتماعية  \nمع باقي الوزارات والجهات الحكومية، تم إطلاق برنامج توطين لدعم المنشآت والباحثين عن عمل وفق آليات منظمة ومدة  \nزمنية محددة.  \nويعد برنامج \"توطين\" أحد برامج وزارة الموارد البشرية والتنمية الاجتماعية الذي يهدف إلى خلق فرص وظيفية للباحثين  \nوالباحثات عن عمل، مستهدف المتخرجين من الجنسين ممن لم يسبق لهم الدخول لسوق العمل أو انقطعوا لما يزيد عن ثلاثة أشهر في القطاع الخاص. وتتعاون  \nالوزارة مع مختلف المنشآت الكبرى وكذلك المنشآت سريعة النمو لغرض استهداف نسب محددة وأعداد محددة من  \nالوظائف والمهن لتوظيف المواطنين والمواطنات بشكل منظم ومتكافئ وعبر استراتيجية تسهم في توفير بيئة عمل مناسبة  \nلاستيعابهم ولتحقيق الاستقرار الوظيفي والاستدامة الوظيفية لهم"
+  utter_u-dD19-BF:
+  - buttons:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    - payload: /HRDF_No_Are_You_Found
+      title: لا
+      type: postback
+    - payload: /HRDF_Yes_Are_You_Found
+      title: نعم
+      type: postback
+    - payload: /individual_faq_link
+      title: اسأل مجددا
+      type: postback
+    language: ar
+    metadata: null
+    text: 'هل وجدت ما تبحث عنه ؟ '
+  utter_v-AhRMSKW:
+  - language: ar
+    quick_replies:
+    - payload: /business_faq_link{"faq_program_id":"121"}
+      title: برنامج توافق
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"131"}
+      title: برنامج توطين
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"132"}
+      title: اعانة البحث عن عمل
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"136"}
+      title: 'توطين عقود التشغيل والصيانة '
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"147"}
+      title: المنصة الوطنية الموحدة للتوظيف
+      type: postback
+    - payload: /FAQS_Indivisual_Programs
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_vcM0LX7AV:
+  - language: ar
+    quick_replies:
+    - title: عرض مواقع الفروع ومراكز طاقات
+      type: web_url
+      url: https://www.hrdf.org.sa/contactus#Branches
+    - payload: /srv_take_survey
+      title: التقييم‎
+      type: postback
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    text: "فروع هدف ومراكز طاقات  \n  \nشبكة من الفروع والمراكز المتخصصة في جميع أنحاء المملكة العربية السعودية تقدم مجموعة متنوعة من خدمات التوظيف والتدريب للعملاء ، مثل توقيع اتفاقيات الدعم ، وربط الباحثين عن العمل بأصحاب العمل ، وتنظيم المقابلات وورش العمل ، وتقديم خدمات التوجيه المهني والموارد البشرية،  كما تقدم حزمة من الخدمات الداعمة أثناء رحلة البحث عن عمل.\n"
+  utter_vpXrQDbSo:
+  - image: https://hrdf.org.sa/media/HRDFphotos/DirectedTransport/DirectedTransport2.png
+    language: ar
+    text: null
+  utter_wYmoYCAet:
+  - image: https://hrdf.org.sa/media/HRDFphotos/Programs/DomiciliationContracts/DomiciliationContracts2.png
+    language: ar
+    text: null
+  utter_woOBQXNSl:
+  - language: ar
+    quick_replies:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    text: "نتطلع دائما لإرضائكم.  \nدمتم بخير.."
+  utter_x6-KiniwO:
+  - language: ar
+    metadata: null
+    text: لحظات من فضلك...
+  utter_xCukmQizY:
+  - language: ar
+    quick_replies:
+    - payload: /business_faq_link{"faq_program_id":"61"}
+      title: برنامج التدريب الصيفي -منشآت
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"92"}
+      title: برنامج تمهير ( منشآت )
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"94"}
+      title: أكاديمية هدف للقيادة
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"129"}
+      title: مهارات
+      type: postback
+    - payload: /business_faq_link{"faq_program_id":"140"}
+      title: دروب منشآت
+      type: postback
+    - payload: /FAQS_Business_programs
+      title: القائمة السابقة 🔙
+      type: postback
+    text: الرجاء اختيار إحدى البرامج التالية ⬇️
+  utter_z_w5G0Do8:
+  - language: ar
+    quick_replies:
+    - payload: /Main_menu
+      title: "القائمة الرئيسية \U0001F3E0\t"
+      type: postback
+    - payload: /srv_take_survey
+      title: التقييم
+      type: postback
+    text: شكرا لتواصلك معنا.
+session_config: {}
+slots:
+  Business_City:
+    type: unfeaturized
+  Business_Email:
+    type: unfeaturized
+  Business_Mobile_Num:
+    type: unfeaturized
+  Business_Name:
+    type: unfeaturized
+  Business_Owner_Name:
+    type: unfeaturized
+  Business_Phone_Num:
+    type: unfeaturized
+  Email:
+    type: unfeaturized
+  Full_name:
+    type: unfeaturized
+  Mobile_number:
+    type: unfeaturized
+  Not_match_Num:
+    type: unfeaturized
+  Not_match_num:
+    type: unfeaturized
+  Num_check:
+    type: unfeaturized
+  OTP_Not_match:
+    type: unfeaturized
+  OTP_not_match:
+    type: unfeaturized
+  OTP_varification:
+    type: unfeaturized
+  Owner_Num_Check:
+    type: unfeaturized
+  Varification:
+    type: unfeaturized
+  check_ticket_status_single:
+    type: unfeaturized
+  city_name:
+    type: unfeaturized
+  disambiguation_message:
+    type: unfeaturized
+  email_id:
+    type: unfeaturized
+  fallback_language:
+    initial_value: ar
+    type: unfeaturized
+  faq_program_id:
+    type: unfeaturized
+  full_name:
+    type: unfeaturized
+  gen_email:
+    type: unfeaturized
+  gen_full_name:
+    type: unfeaturized
+  gen_phone_number:
+    type: unfeaturized
+  get_complaint_category_id:
+    type: unfeaturized
+  get_complaint_purpose_id:
+    type: unfeaturized
+  get_message_purpose_id:
+    type: unfeaturized
+  get_programe_name:
+    type: unfeaturized
+  get_programe_type:
+    type: unfeaturized
+  indi_faq_question:
+    type: unfeaturized
+  mobile_no:
+    type: unfeaturized
+  region_name:
+    type: unfeaturized
+  select_customer_type:
+    type: unfeaturized
+  survey_question_four:
+    type: unfeaturized
+  survey_question_one:
+    type: unfeaturized
+  survey_question_three:
+    type: unfeaturized
+  survey_question_two:
+    type: unfeaturized
+  test_one:
+    type: unfeaturized
+  ticket_email_id:
+    type: unfeaturized
+  ticket_full_name:
+    type: unfeaturized
+  ticket_mobile_no:
+    type: unfeaturized
+  ticket_nin_number:
+    type: unfeaturized
+  ticket_title:
+    type: unfeaturized
+  الأسم_الكامل:
+    type: unfeaturized
+  البريد_الألكتروني:
+    type: unfeaturized
+  المدينه:
+    type: unfeaturized
+  المنطقه:
+    type: unfeaturized
+  رقم_الموبايل:
+    type: unfeaturized

@@ -1,0 +1,188 @@
+---
+id: changelog
+sidebar_label: Rasa For Botfront Changelog
+title: Rasa For Botfront Changelog
+---
+
+All notable changes to this project will be documented in this file.
+This project adheres to [Semantic Versioning](https://semver.org/) starting with version 1.0.
+
+<!-- You should **NOT** be adding new change log entries to this file, this
+file is managed by ``towncrier``.
+
+You **may** edit previous change logs to fix problems like typo corrections or such.
+You can find more information on how to add a new change log entry at
+https://github.com/RasaHQ/rasa/tree/main/changelog/ . -->
+
+<!-- TOWNCRIER -->
+
+## [2.3.3-bf.3] - 2021-03-17
+
+### Improvements
+
+- [#49](https://github.com/botfront/rasa-for-botfront/pull/49): Model auto load after using `/model/train` route.
+
+### Bugfixes
+
+- [#50](https://github.com/botfront/rasa-for-botfront/pull/50): Fix entity comparision in regression test channel.
+
+## [2.3.3-bf.2] - 2021-03-10
+
+### Improvements
+
+- [#48](https://github.com/botfront/rasa-for-botfront/pull/48): Load local endpoints/credentials files if present.
+- [#47](https://github.com/botfront/rasa-for-botfront/pull/47): Allow training from CLI.
+
+## [2.3.3-bf.1] - 2021-02-25
+
+### Improvements
+
+- [#43](https://github.com/botfront/rasa-for-botfront/pull/43): Support for securing Rasa API with auth token with an env var.
+
+## [2.2.5-bf.3] - 2021-01-29
+
+### Bugfixes
+
+- [#39](https://github.com/botfront/rasa-for-botfront/pull/39): Fix bot regression tests always use fallback lang.
+
+## [2.2.5-bf.1] - 2021-01-19
+
+### Bugfixes
+
+- [fe8d0d3](https://github.com/botfront/rasa-for-botfront/commit/fe8d0d3d6cd2328da9038c7eaa77e9be84079731): Better outdated model handling.
+
+## [2.1.3-bf.7] - 2021-01-15
+
+### Bugfixes
+
+- [e8ee72e](https://github.com/botfront/rasa-for-botfront/commit/e8ee72e39fa0aa0815ad6407b47f06b4f5da0d49): Don't collect form results if it's a regression test run.
+
+## [2.1.3-bf.5] - 2021-01-06
+
+### Bugfixes
+
+- [#36](https://github.com/botfront/rasa-for-botfront/pull/38): Fix regression testing of forms.
+- [8af1c75](https://github.com/botfront/rasa-for-botfront/commit/8af1c75833eca4bd18683611e480926e638c705a): Fix training of outdated models.
+
+## [2.1.3-bf.4] - 2020-12-23
+
+### Features
+
+- [#36](https://github.com/botfront/rasa-for-botfront/pull/36): Add an input channel to which Botfront can POST chatbot regression tests.
+
+### Improvements
+
+- [#37](https://github.com/botfront/rasa-for-botfront/pull/37): Preparse nlu yaml to avoid ruamel performance issue.
+
+### Bugfixes
+
+- [78e397a](https://github.com/botfront/rasa-for-botfront/commit/78e397ad00ff7c25c3a8ea6fd21dc0cd15b90bcf): Train when old model is corrupted.
+
+## [2.1.3-bf.3] - 2020-12-16
+
+### Bugfixes
+
+- [b1ad997](https://github.com/botfront/rasa-for-botfront/commit/b1ad99753eff8dd914c5e1d0627f5aa1e5873c02): Temporarily fix bf forms by skipping Rasa form validation.
+
+## [2.1.3-bf.2] - 2020-12-15
+
+### Bugfixes
+
+- [6369098](https://github.com/botfront/rasa-for-botfront/commit/636909871736b3c3685143764f6a7f86bc1a1fd1): Fix bug where non-structured NLU data (e.g. synonyms) caused a crash.
+
+### Improvements
+
+- [a241685](https://github.com/botfront/rasa-for-botfront/commit/a2416856e5eeb7eca25c4f03aaa570cb52e465db): NLU data spec/styling: language as intent-level metadata, rest as example level.
+
+## [2.1.3-bf.1] - 2020-12-14
+
+### Misc
+
+- [c694727](https://github.com/botfront/rasa-for-botfront/commit/c694727bd4acca252f0716a5d58b8a9a1c2bdaf9): Rasa 2.0!
+
+## [1.10.16-bf.3] - 2020-11-25
+
+### Bugfixes
+
+- [#35](https://github.com/botfront/rasa-for-botfront/pull/35): Fix form submission, where exiting form with no SlotSet instruction caused a TypeError.
+
+## [1.10.16-bf.2] - 2020-11-12
+
+### Bugfixes
+
+- [#34](https://github.com/botfront/rasa-for-botfront/pull/34): Use "from_text" extraction when none specified.
+
+### Features
+
+- [#33](https://github.com/botfront/rasa-for-botfront/pull/33): Allow setting a slot at the end of a form.
+
+## [1.10.16-bf.1] - 2020-10-27
+
+### Improvements
+
+- [#32](https://github.com/botfront/rasa-for-botfront/pull/32): Move graphql slot interpolation to Rasa.
+- [#29](https://github.com/botfront/rasa-for-botfront/pull/29): Add support for the augmentation factor in the train route.
+
+## [1.10.10-bf.4] - 2020-09-18
+
+### Features
+
+- [#28](https://github.com/botfront/rasa-for-botfront/pull/28): Determine required slots programmatically from graph.
+
+## [1.10.10-bf.3] - 2020-08-19
+
+### Bugfixes
+
+- [bd8b860](https://github.com/botfront/rasa-for-botfront/commit/bd8b860c0435b52c0d391816e9a71d18e9c12ef4): Fix language not associated with right model at training time.
+
+## [1.10.10-bf.2] - 2020-08-17
+
+### Features
+
+- [#27](https://github.com/botfront/rasa-for-botfront/pull/27): Include entity misclassifications in `/model/test/intents` route response.
+
+## [1.10.10-bf.1] - 2020-08-12
+
+### Improvements
+
+- [6fe19b2](https://github.com/botfront/rasa-for-botfront/commit/6fe19b21d489d9b6468951ba5310799fe3daf8ba): Make `output_channel` param of `/trigger_intent` route define input channel of triggered intent.
+- [2210d2e](https://github.com/botfront/rasa-for-botfront/commit/2210d2e8db38a47991f7f202da6c01df2b4edf27): Use full rasa installation in Dockerfile (use flag `--extras full`).
+- [1227e21](https://github.com/botfront/rasa-for-botfront/commit/1227e2171eabeed7818639318a2e4cca348ffc31): Allow instance to boot regardless of exceptions incurred during initial model loading.
+- [6e728d7](https://github.com/botfront/rasa-for-botfront/commit/6e728d74b92dd0bd98fae63bd6d3e4e989b80c66): Move multilingual interpreter logic to ensemble interpreter class.
+
+## [1.10.3-bf.3] - 2020-07-22
+
+### Features
+
+- [d16e75f](https://github.com/botfront/rasa-for-botfront/commit/d16e75fc1b4461bcdc1168ea7a16bf322f977ca7): Support for image url text replacements in `BotfrontTemplatedNaturalLanguageGenerator` and `GraphQLNaturalLanguageGenerator`.
+
+### Improvements
+- [cbff36b](https://github.com/botfront/rasa-for-botfront/commit/cbff36b7704baecda63720473456777daad968a5): Re-allow Rasa container to be run as non-root.
+
+## [1.10.3-bf.2] - 2020-07-13
+
+### Bugfixes
+
+- [#25](https://github.com/botfront/rasa-for-botfront/pull/25): Fix story fingerprinting resulting in overeager Core retraining. Base it off story file text content instead of StoryGraph.
+
+## [1.10.3-bf.1] - 2020-07-01
+
+### Bugfixes
+
+- [82ca6d7](https://github.com/botfront/rasa-for-botfront/commit/82ca6d797d2c8ce4100bc026a6e7c29abce38a7d): Fix error when `bf_forms` slot is not defined.
+- [63ab95f](https://github.com/botfront/rasa-for-botfront/commit/63ab95f76df9af451d352f044817e9682488253b): Fix behavior of custom key in messages in Webchat and Rest channels.
+
+### Improvements
+
+- [29ed2fe](https://github.com/botfront/rasa-for-botfront/commit/29ed2fe14c017c065dbed5901a2ce438c28790c3): Forward bot messages to output channel when using `/conversations/<conversation_id>/tracker/events` route.
+- [1d37e10](https://github.com/botfront/rasa-for-botfront/commit/1d37e1032c9f1a0796b3b0576754bf459aed71ec): Make RestPlus and WebchatPlus channels aliases of Rest and Webchat.
+
+## [1.10.1-bf.1] - 2020-06-17
+
+### Features
+
+- [#73](https://github.com/botfront/rasa-for-botfront/pull/23): Read and handle automated forms from Botfront.
+
+### Improvements
+
+- [#24](https://github.com/botfront/rasa-for-botfront/pull/24): Move `rasa-addons` repo to `rasa-for-botfront`.
