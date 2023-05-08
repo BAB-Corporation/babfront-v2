@@ -35,7 +35,7 @@ poetry env info
 We are using poetry 1.3.1 in this project.
 
 ```
-curl -sSL https://install.python-poetry.org | python3 -
+curl -sSL https://install.python-poetry.org | python3 - --version 1.3.1
 ```
 
 ## install project
